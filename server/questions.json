@@ -206,5 +206,201 @@
     },
     "correct": 2,
     "info": "Romantic music is a stylistic movement in Western Classical music associated with the period of the 19th century commonly referred to as the Romantic era (or Romantic period). The Romantic period tended to make greater use of longer, more fully defined and more emotionally evocative themes."
-  }
+  },
+  {
+      "id": 31,
+      "category": "Hufflepuff",
+      "question": "How would you define 'drama'?",
+      "answers": {
+        "first": "A type of music",
+        "second": "A form of dance",
+        "third": "A written work meant to be acted on stage",
+        "fourth": "A type of painting"
+      },
+      "correct": 2,
+      "info": "Drama is a written work that tells a story through action and speech and is meant to be performed on a stage."
+    },
+    {
+      "id": 32,
+      "category": "Hufflepuff",
+      "question": "What is a playwright?",
+      "answers": {
+        "first": "A person who performs on stage",
+        "second": "A person who directs a play",
+        "third": "A person who writes plays",
+        "fourth": "A person who designs stage sets"
+      },
+      "correct": 2,
+      "info": "A playwright is a person who writes plays, creating the dialogue, characters, and plot that form the basis of a theatrical production."
+    },
+    {
+      "id": 33,
+      "category": "Hufflepuff",
+      "question": "What is an act?",
+      "answers": {
+        "first": "The person responsible for managing the technical aspects of a play",
+        "second": "A major division within a play",
+        "third": "A type of dramatic performance",
+        "fourth": "The main character of a play"
+      },
+      "correct": 1,
+      "info": "An act is a major division within a play, representing a significant shift in the story or setting."
+    },
+    {
+      "id": 34,
+      "category": "Hufflepuff",
+      "question": "What is a scene?",
+      "answers": {
+        "first": "The person who writes the dialogue for a play",
+        "second": "A type of dramatic performance",
+        "third": "A minor division within an act",
+        "fourth": "The main character of a play"
+      },
+      "correct": 2,
+      "info": "A scene is a minor division within an act, usually representing a continuous action or a change in location."
+    },
+    {
+      "id": 35,
+      "category": "Hufflepuff",
+      "question": "What is dialogue?",
+      "answers": {
+        "first": "The written instructions for the actors",
+        "second": "A type of stage decoration",
+        "third": "A written conversation between characters",
+        "fourth": "The overall theme of a play"
+      },
+      "correct": 2,
+      "info": "Dialogue refers to the written conversation between characters in a play, conveying the interactions, emotions, and plot development."
+    },
+    {
+      "id": 36,
+      "category": "Hufflepuff",
+      "question": "What is a monologue?",
+      "answers": {
+        "first": "A type of dramatic performance",
+        "second": "The main character of a play",
+        "third": "A long speech by a single character",
+        "fourth": "The person responsible for managing the technical aspects of a play"
+      },
+      "correct": 2,
+      "info": "A monologue is a long speech delivered by a single character, expressing their thoughts, feelings, or intentions."
+    },
+    {
+      "id": 37,
+      "category": "Hufflepuff",
+      "question": "What is a prop?",
+      "answers": {
+        "first": "The person who designs stage sets",
+        "second": "A type of stage decoration",
+        "third": "The person responsible for managing the technical aspects of a play",
+        "fourth": "A person who performs on stage"
+      },
+      "correct": 1,
+      "info": "A prop is any object used on stage by actors during a play to enhance the storytelling or provide visual elements."
+    },
+    {
+      "id": 38,
+      "category": "Hufflepuff",
+      "question": "What is a script?",
+      "answers": {
+        "first": "A type of music composition",
+        "second": "A person who writes plays",
+        "third": "The person who directs a play",
+        "fourth": "The written text of a play"
+      },
+      "correct": 3,
+      "info": "A script is the written text of a play, including the dialogue, stage directions, and other instructions for the actors and production team."
+    },
+    {
+      "id": 39,
+      "category": "Hufflepuff",
+      "question": "What is a comedy?",
+      "answers": {
+        "first": "A humorous play",
+        "second": "A serious and tragic play",
+        "third": "A type of dance performance",
+        "fourth": "A type of music composition"
+      },
+      "correct": 0,
+      "info": "A comedy is a type of play or performance that aims to entertain and amuse the audience through humor, wit, and light-hearted situations."
+    },
+    {
+      "id": 40,
+      "category": "Hufflepuff",
+      "question": "What is a tragedy?",
+      "answers": {
+        "first": "A type of dance performance",
+        "second": "A serious and tragic play",
+        "third": "A humorous play",
+        "fourth": "A type of music composition"
+      },
+      "correct": 1,
+      "info": "A tragedy is a serious and often sorrowful play or performance that depicts the downfall or suffering of a heroic character or characters."
+    },
+    {
+      "id": 41,
+      "category": "Hufflepuff",
+      "question": "Who is considered the father of modern drama?",
+      "answers": {
+        "first": "William Shakespeare",
+        "second": "Henrik Ibsen",
+        "third": "Anton Chekhov",
+        "fourth": "Arthur Miller"
+      },
+      "correct": 1,
+      "info": "Henrik Ibsen is often referred to as the father of modern drama for his realistic plays that tackled social issues."
+    },
+    {
+      "id": 42,
+      "category": "Hufflepuff",
+      "question": "Which Greek playwright is known for his tragedies such as 'Oedipus Rex'?",
+      "answers": {
+        "first": "Sophocles",
+        "second": "Euripides",
+        "third": "Aristophanes",
+        "fourth": "Aeschylus"
+      },
+      "correct": 0,
+      "info": "Sophocles is renowned for his tragic plays, including 'Oedipus Rex,' which explores themes of fate and identity."
+    },
+    {
+      "id": 43,
+      "category": "Hufflepuff",
+      "question": "Which TV drama series is set in the fictional land of Westeros?",
+      "answers": {
+        "first": "Breaking Bad",
+        "second": "The Sopranos",
+        "third": "Game of Thrones",
+        "fourth": "The Walking Dead"
+      },
+      "correct": 2,
+      "info": "Game of Thrones is an epic fantasy series known for its intricate plot, complex characters, and power struggles in the Seven Kingdoms of Westeros."
+    },
+    {
+      "id": 44,
+      "category": "Hufflepuff",
+      "question": "Which TV drama series follows the lives of advertising executives in 1960s New York?",
+      "answers": {
+        "first": "The Crown",
+        "second": "Mad Men",
+        "third": "Stranger Things",
+        "fourth": "The Handmaid's Tale"
+      },
+      "correct": 1,
+      "info": "Mad Men is a critically acclaimed drama that delves into the glamorous yet tumultuous world of Madison Avenue advertising in the 1960s."
+    },
+    {
+     "id": 45,
+     "category": "drama",
+     "question": "Who wrote the play 'Romeo and Juliet'?",
+     "answers": {
+        "first": "William Shakespeare",
+        "second": "Arthur Miller",
+        "third": "Samuel Beckett",
+        "fourth": "Edward Albee"
+     },
+      "correct": 0,
+      "info": "William Shakespeare wrote the famous tragedy 'Romeo and Juliet,' which tells the story of two young lovers from feuding families."
+    },
+
 ]
