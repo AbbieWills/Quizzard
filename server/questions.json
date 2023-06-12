@@ -208,396 +208,588 @@
     "info": "Romantic music is a stylistic movement in Western Classical music associated with the period of the 19th century commonly referred to as the Romantic era (or Romantic period). The Romantic period tended to make greater use of longer, more fully defined and more emotionally evocative themes."
   },
   {
-      "id": 31,
-      "category": "Hufflepuff",
-      "question": "How would you define 'drama'?",
-      "answers": {
-        "first": "A type of music",
-        "second": "A form of dance",
-        "third": "A written work meant to be acted on stage",
-        "fourth": "A type of painting"
-      },
-      "correct": 2,
-      "info": "Drama is a written work that tells a story through action and speech and is meant to be performed on a stage."
+    "id": 16,
+    "category": "Slytherin",
+    "question": "What is a 'Brunaille'?",
+    "answers": {
+      "first": "A painting which has a velvety finish",
+      "second": "A painting which is circular in shape",
+      "third": "A painting which does not contain any human forms",
+      "fourth": "A painting done mostly or entirely in shades of brown"
     },
-    {
-      "id": 32,
-      "category": "Hufflepuff",
-      "question": "What is a playwright?",
-      "answers": {
-        "first": "A person who performs on stage",
-        "second": "A person who directs a play",
-        "third": "A person who writes plays",
-        "fourth": "A person who designs stage sets"
-      },
-      "correct": 2,
-      "info": "A playwright is a person who writes plays, creating the dialogue, characters, and plot that form the basis of a theatrical production."
+    "correct": 3,
+    "info": "Brunaille has its origins in 12th century stained glass made for Cistercian monasteries"
+  },
+  {
+    "id": 17,
+    "category": "Slytherin",
+    "question": "who painted the picture the stray night",
+    "answers": {
+      "first": "Leonardo da Vinci",
+      "second": "Vincent van Gogh",
+      "third": "Pablo Picasso",
+      "fourth": "Johannes Vermeer"
     },
-    {
-      "id": 33,
-      "category": "Hufflepuff",
-      "question": "What is an act?",
-      "answers": {
-        "first": "The person responsible for managing the technical aspects of a play",
-        "second": "A major division within a play",
-        "third": "A type of dramatic performance",
-        "fourth": "The main character of a play"
-      },
-      "correct": 1,
-      "info": "An act is a major division within a play, representing a significant shift in the story or setting."
+    "correct": 1,
+    "info": "Vincent van Gogh painted Starry Night in 1889 during his stay at the asylum of Saint-Paul-de-Mausole near Saint-Rémy-de-Provence"
+  },
+  {
+    "id": 18,
+    "category": "Slytherin",
+    "question": "What is the key material used in marmotinto?",
+    "answers": {
+      "first": "Sand",
+      "second": "Oil",
+      "third": "Water",
+      "fourth": "Wax"
     },
-    {
-      "id": 34,
-      "category": "Hufflepuff",
-      "question": "What is a scene?",
-      "answers": {
-        "first": "The person who writes the dialogue for a play",
-        "second": "A type of dramatic performance",
-        "third": "A minor division within an act",
-        "fourth": "The main character of a play"
-      },
-      "correct": 2,
-      "info": "A scene is a minor division within an act, usually representing a continuous action or a change in location."
+    "correct": 0,
+    "info": "Marmotinto is the art of creating pictures using coloured sand or marble dust and is also known as sand painting"
+  },
+  {
+    "id": 19,
+    "category": "Slytherin",
+    "question": "What is gilding?",
+    "answers": {
+      "first": "Covering a large area with paint very quickly",
+      "second": "Applying fine gold leaf or powder to solid surfaces",
+      "third": "Using minute detail to draw the viewer's eye",
+      "fourth": "Building thick layers of paint up on a canvas"
     },
-    {
-      "id": 35,
-      "category": "Hufflepuff",
-      "question": "What is dialogue?",
-      "answers": {
-        "first": "The written instructions for the actors",
-        "second": "A type of stage decoration",
-        "third": "A written conversation between characters",
-        "fourth": "The overall theme of a play"
-      },
-      "correct": 2,
-      "info": "Dialogue refers to the written conversation between characters in a play, conveying the interactions, emotions, and plot development."
+    "correct": 1,
+    "info": "Methods of gilding include hand application and glueing, chemical gilding, and electroplating. Objects treated this way are known as 'gilt'"
+  },
+  {
+    "id": 20,
+    "category": "Slytherin",
+    "question": "How is paint applied when creating 'Impasto'?",
+    "answers": {
+      "first": "Very thinly",
+      "second": "In several thin layers",
+      "third": "One colour at a time",
+      "fourth": "Very thickly"
     },
-    {
-      "id": 36,
-      "category": "Hufflepuff",
-      "question": "What is a monologue?",
-      "answers": {
-        "first": "A type of dramatic performance",
-        "second": "The main character of a play",
-        "third": "A long speech by a single character",
-        "fourth": "The person responsible for managing the technical aspects of a play"
-      },
-      "correct": 2,
-      "info": "A monologue is a long speech delivered by a single character, expressing their thoughts, feelings, or intentions."
+    "correct": 3,
+    "info": "The paint is usually thick enough to see the brush or knife strokes as it has been applied"
+  },
+  {
+    "id": 21,
+    "category": "Slytherin",
+    "question": "What is 'faux painting'",
+    "answers": {
+      "first": "A painting technique which creates a shadow",
+      "second": "An artistic technique which shows the artists within the painting",
+      "third": "A method for applying paint to a canvas without using brushes",
+      "fourth": "A painting technique to replicate the finish of materials such as wood or marble"
     },
-    {
-      "id": 37,
-      "category": "Hufflepuff",
-      "question": "What is a prop?",
-      "answers": {
-        "first": "The person who designs stage sets",
-        "second": "A type of stage decoration",
-        "third": "The person responsible for managing the technical aspects of a play",
-        "fourth": "A person who performs on stage"
-      },
-      "correct": 1,
-      "info": "A prop is any object used on stage by actors during a play to enhance the storytelling or provide visual elements."
+    "correct": 3,
+    "info": "Faux painting became popular in classical times in the forms of faux marble, faux wood, and trompe l'oeil murals which 'trick the eye'"
+  },
+  {
+    "id": 22,
+    "category": "Slytherin",
+    "question": "who painted the picture of mona lisa",
+    "answers": {
+      "first": "Leonardo DiCaprio",
+      "second": "Sandro Botticelli",
+      "third": "Leonardo da Vinci",
+      "fourth": "Vincent van Gogh"
     },
-    {
-      "id": 38,
-      "category": "Hufflepuff",
-      "question": "What is a script?",
-      "answers": {
-        "first": "A type of music composition",
-        "second": "A person who writes plays",
-        "third": "The person who directs a play",
-        "fourth": "The written text of a play"
-      },
-      "correct": 3,
-      "info": "A script is the written text of a play, including the dialogue, stage directions, and other instructions for the actors and production team."
+    "correct": 2,
+    "info": "The Mona Lisa painting is one of the most emblematic portraits in the history of art, where is located at the Louvre."
+  },
+  {
+    "id": 23,
+    "category": "Slytherin",
+    "question": "Painting has a lot to do with colour. What do we call the selection of colours an artist chooses to use?",
+    "answers": {
+      "first": "His colour box",
+      "second": "His colour wheel",
+      "third": "His colour palette",
+      "fourth": "His colour brush"
     },
-    {
-      "id": 39,
-      "category": "Hufflepuff",
-      "question": "What is a comedy?",
-      "answers": {
-        "first": "A humorous play",
-        "second": "A serious and tragic play",
-        "third": "A type of dance performance",
-        "fourth": "A type of music composition"
-      },
-      "correct": 0,
-      "info": "A comedy is a type of play or performance that aims to entertain and amuse the audience through humor, wit, and light-hearted situations."
+    "correct": 2,
+    "info": "Some artists use a very limited palette, others use colour to provoke a particular emotion"
+  },
+  {
+    "id": 24,
+    "category": "Slytherin",
+    "question": "During the Renaissance, a particular type of painting was popular. It involved painting directly onto plaster which was wet. What was this called?",
+    "answers": {
+      "first": "Freezer painting",
+      "second": "Fresco painting",
+      "third": "Fashion painting",
+      "fourth": "Fisher painting"
     },
-    {
-      "id": 40,
-      "category": "Hufflepuff",
-      "question": "What is a tragedy?",
-      "answers": {
-        "first": "A type of dance performance",
-        "second": "A serious and tragic play",
-        "third": "A humorous play",
-        "fourth": "A type of music composition"
-      },
-      "correct": 1,
-      "info": "A tragedy is a serious and often sorrowful play or performance that depicts the downfall or suffering of a heroic character or characters."
+    "correct": 1,
+    "info": "Buon fresco technique consists of painting in pigment mixed with water on a thin layer of wet, fresh lime mortar or plaster"
+  },
+  {
+    "id": 25,
+    "category": "Slytherin",
+    "question": "Which of the following types of brushes might a professional artist be likely to leave on the shelf?",
+    "answers": {
+      "first": "Sable",
+      "second": "Ox hair",
+      "third": "Hog bristle",
+      "fourth": "Synthetic"
     },
-    {
-      "id": 41,
-      "category": "Hufflepuff",
-      "question": "Who is considered the father of modern drama?",
-      "answers": {
-        "first": "William Shakespeare",
-        "second": "Henrik Ibsen",
-        "third": "Anton Chekhov",
-        "fourth": "Arthur Miller"
-      },
-      "correct": 1,
-      "info": "Henrik Ibsen is often referred to as the father of modern drama for his realistic plays that tackled social issues."
+    "correct": 3,
+    "info": "Natural bristles are usually preferable - some are even made from squirrel, pony or mongoose hair!"
+  },
+  {
+    "id": 26,
+    "category": "Slytherin",
+    "question": "A deep blue paint was made by crushing the valuable gemstone lapis lazuli. As it was so expensive, it was usually only used for what?",
+    "answers": {
+      "first": "Large expanses of sky",
+      "second": "Seascapes",
+      "third": "Painting the eyes of rich ladies",
+      "fourth": "The robes of the Virgin Mary"
     },
-    {
-      "id": 42,
-      "category": "Hufflepuff",
-      "question": "Which Greek playwright is known for his tragedies such as 'Oedipus Rex'?",
-      "answers": {
-        "first": "Sophocles",
-        "second": "Euripides",
-        "third": "Aristophanes",
-        "fourth": "Aeschylus"
-      },
-      "correct": 0,
-      "info": "Sophocles is renowned for his tragic plays, including 'Oedipus Rex,' which explores themes of fate and identity."
+    "correct": 3,
+    "info": "If a picture included a woman wearing clothes painted with lapis blue, people understood it was probably Jesus' mother"
+  },
+  {
+    "id": 27,
+    "category": "Slytherin",
+    "question": "Which are the two usual ways for a canvas orientation to be described?",
+    "answers": {
+      "first": "Seascape and photograph",
+      "second": "Skyscraper and underground",
+      "third": "Sideways and longways",
+      "fourth": "Landscape and portrait"
     },
-    {
-      "id": 43,
-      "category": "Hufflepuff",
-      "question": "Which TV drama series is set in the fictional land of Westeros?",
-      "answers": {
-        "first": "Breaking Bad",
-        "second": "The Sopranos",
-        "third": "Game of Thrones",
-        "fourth": "The Walking Dead"
-      },
-      "correct": 2,
-      "info": "Game of Thrones is an epic fantasy series known for its intricate plot, complex characters, and power struggles in the Seven Kingdoms of Westeros."
+    "correct": 3,
+    "info": "This also refers to what you might expect to see on the canvas when it hangs that way!"
+  },
+  {
+    "id": 28,
+    "category": "Slytherin",
+    "question": "What can be found at the Grotte Chauvet in France?",
+    "answers": {
+      "first": "Some of the oldest paintings known to man",
+      "second": "The first man-made paintbrush",
+      "third": "The best example of a portrait",
+      "fourth": "The first use of the colour blue"
     },
-    {
-      "id": 44,
-      "category": "Hufflepuff",
-      "question": "Which TV drama series follows the lives of advertising executives in 1960s New York?",
-      "answers": {
-        "first": "The Crown",
-        "second": "Mad Men",
-        "third": "Stranger Things",
-        "fourth": "The Handmaid's Tale"
-      },
-      "correct": 1,
-      "info": "Mad Men is a critically acclaimed drama that delves into the glamorous yet tumultuous world of Madison Avenue advertising in the 1960s."
+    "correct": 0,
+    "info": "They are painted using red and black and show horses, rhinoceroses, lions, buffalos, mammoths and what are possibly human figures. They are around 32,000 years old"
+  },
+  {
+    "id": 29,
+    "category": "Slytherin",
+    "question": "Although acrylic paints are water-based, what happens to them when they dry?",
+    "answers": {
+      "first": "They become waterproof",
+      "second": "Their colour fades",
+      "third": "They change colour dramatically",
+      "fourth": "They develop a rippled texture"
     },
-    {
-     "id": 45,
-     "category": "drama",
-     "question": "Who wrote the play 'Romeo and Juliet'?",
-     "answers": {
-        "first": "William Shakespeare",
-        "second": "Arthur Miller",
-        "third": "Samuel Beckett",
-        "fourth": "Edward Albee"
-     },
-      "correct": 0,
-      "info": "William Shakespeare wrote the famous tragedy 'Romeo and Juliet,' which tells the story of two young lovers from feuding families."
+    "correct": 1,
+    "info": "Acrylic paint is fast drying paint containing pigment suspension in acrylic polymer emulsion"
+  },
+  {
+    "id": 30,
+    "category": "Slytherin",
+    "question": "What does the term 'monochrome' mean?",
+    "answers": {
+      "first": "Created in silence",
+      "second": "Being mainly of one colour palette",
+      "third": "Abstract work using mixed media",
+      "fourth": "Paintings completed outdoors"
     },
-
-    {
-        "id": 46,
-        "category": "gryffindor",
-        "question": "Select the grammatically correct quote",
-        "answers": {
-          "first": "It does not do to dwell on dreams and forget to live.",
-          "second": "It doesn't to do to dwell on dream and forget to live.",
-          "third": "It does not do to dwell on dreems and forgot to live.",
-          "fourth": "It don't do to dwell on dreams and forgot to live."
-        },
-        "correct": 0,
-        "info": "Correct grammar and spelling is 'does not' and 'dreams'"
-      },
-      {
-        "id": 47,
-        "category": "gryffindor",
-        "question": "Select the grammatically correct quote",
-        "answers": {
-          "first": "It is our choices, Harry, that show what we truely are, far more than our abillities.",
-          "second": "It is our choices, Harry, that show what we truly are, far more than our abilities",
-          "third": "It is our choices, Harrry, that shows what we truly are, far moore than our abilities.",
-          "fourth": "It is our choices, Harry, that show what we truly are, far more than our  abilitys."
-        },
-        "correct": 1,
-        "info": "Correct grammar and spelling is 'Harry', 'show', 'truly', 'more' and 'abilities"
+    "correct": 1,
+    "info": "Monochromatic works use either one colour, or shades of a colour and can apply to painting, drawing or photography"
+  },
+  {
+    "id": 31,
+    "category": "Hufflepuff",
+    "question": "How would you define 'drama'?",
+    "answers": {
+      "first": "A type of music",
+      "second": "A form of dance",
+      "third": "A written work meant to be acted on stage",
+      "fourth": "A type of painting"
     },
-    {
-        "id": 48,
-        "category": "gryffindor",
-        "question": "Select the grammatically correct quote",
-        "answers": {
-          "first": "Do not pity the dead, Harry. Pity the living, and, above all, these who live without love.",
-          "second": "Do not piity the dead, Harry. Pity the living, and, above alll, those who live without love.",
-          "third": "Donot pity the dead, Harry. Pity the livings, and, above all, those who live with out love",
-          "fourth": "Do not pity the dead, Harry. Pity the living, and, above all, those who live without love"
-        },
-        "correct": 3,
-        "info": "Correct grammar and spelling is 'do not', 'pity', 'those', 'all' and 'without'"
+    "correct": 2,
+    "info": "Drama is a written work that tells a story through action and speech and is meant to be performed on a stage."
+  },
+  {
+    "id": 32,
+    "category": "Hufflepuff",
+    "question": "What is a playwright?",
+    "answers": {
+      "first": "A person who performs on stage",
+      "second": "A person who directs a play",
+      "third": "A person who writes plays",
+      "fourth": "A person who designs stage sets"
     },
-    {
-        "id": 49,
-        "category": "gryffindor",
-        "question": "Select the grammatically correct quote",
-        "answers": {
-          "first": "You're mother died to save you. If there is one thing Voldemort cannot understand, it is love.",
-          "second": "Your mother dyed to save you. If there is one thing Voldemort cannot understand, it is love.",
-          "third": "Your mother died to save you. If there is one thing Voldemort cannot understand, it is love.",
-          "fourth": "Your mother died to save you. If their is one thing Voldemort cannot understand, it is love."
-        },
-        "correct": 2,
-        "info": "Correct grammar and spelling is 'your', 'died', 'there'"
+    "correct": 2,
+    "info": "A playwright is a person who writes plays, creating the dialogue, characters, and plot that form the basis of a theatrical production."
+  },
+  {
+    "id": 33,
+    "category": "Hufflepuff",
+    "question": "What is an act?",
+    "answers": {
+      "first": "The person responsible for managing the technical aspects of a play",
+      "second": "A major division within a play",
+      "third": "A type of dramatic performance",
+      "fourth": "The main character of a play"
     },
-    {
-        "id": 50,
-        "category": "gryffindor",
-        "question": "Select the grammatically correct quote",
-        "answers": {
-          "first": "There is no good and evil, there is only power and those too weak to seek it.",
-          "second": "Their is no good and evil, their is only power and those too weak to seek it.",
-          "third": "They're is no good and evil, they're is only power and those too weak to seek it.",
-          "fourth": "There is no good and evil, there is only power and those to weak to seek it."
-        },
-        "correct": 0,
-        "info": "Correct grammar and spelling is 'there' and 'too'"
+    "correct": 1,
+    "info": "An act is a major division within a play, representing a significant shift in the story or setting."
+  },
+  {
+    "id": 34,
+    "category": "Hufflepuff",
+    "question": "What is a scene?",
+    "answers": {
+      "first": "The person who writes the dialogue for a play",
+      "second": "A type of dramatic performance",
+      "third": "A minor division within an act",
+      "fourth": "The main character of a play"
     },
-    {
-        "id": 51,
-        "category": "gryffindor",
-        "question": "Select the grammatically correct quote",
-        "answers": {
-          "first": "I solemnly swear that I am up too no good.",
-          "second": "I solemnly swere that I am up to no good.",
-          "third": "I solemnly swear that I am up to no good.",
-          "fourth": "I solemnnly swear that I am up too no good."
-        },
-        "correct": 2,
-        "info": "Correct grammar and spelling is 'solemnly', 'swear', 'to'"
+    "correct": 2,
+    "info": "A scene is a minor division within an act, usually representing a continuous action or a change in location."
+  },
+  {
+    "id": 35,
+    "category": "Hufflepuff",
+    "question": "What is dialogue?",
+    "answers": {
+      "first": "The written instructions for the actors",
+      "second": "A type of stage decoration",
+      "third": "A written conversation between characters",
+      "fourth": "The overall theme of a play"
     },
-    {
-        "id": 52,
-        "category": "gryffindor",
-        "question": "Who is the author of the Harry Potter book series?",
-        "answers": {
-          "first": "C.S. Lewi.",
-          "second": "J.K. Rowling.",
-          "third": "J.R.R. Tolkien.",
-          "fourth": "George R. R. Martin"
-        },
-        "correct": 1,
-        "info": "Joanne Kathleen Rowling (J.K Rowling) supposedly wrote the first 7 novels of Harry Potter in a cafe in Edinbrugh"
+    "correct": 2,
+    "info": "Dialogue refers to the written conversation between characters in a play, conveying the interactions, emotions, and plot development."
+  },
+  {
+    "id": 36,
+    "category": "Hufflepuff",
+    "question": "What is a monologue?",
+    "answers": {
+      "first": "A type of dramatic performance",
+      "second": "The main character of a play",
+      "third": "A long speech by a single character",
+      "fourth": "The person responsible for managing the technical aspects of a play"
     },
-    {
-        "id": 53,
-        "category": "gryffindor",
-        "question": "When was Harry Potter and the Philosopher's Stone published?",
-        "answers": {
-          "first": "1996",
-          "second": "1997",
-          "third": "1998",
-          "fourth": "1999"
-        },
-        "correct": 1,
-        "info": "Harry Potter and the Philosopher's stone was published on 26th June 1997"
+    "correct": 2,
+    "info": "A monologue is a long speech delivered by a single character, expressing their thoughts, feelings, or intentions."
+  },
+  {
+    "id": 37,
+    "category": "Hufflepuff",
+    "question": "What is a prop?",
+    "answers": {
+      "first": "The person who designs stage sets",
+      "second": "A type of stage decoration",
+      "third": "The person responsible for managing the technical aspects of a play",
+      "fourth": "A person who performs on stage"
     },
-    {
-        "id": 54,
-        "category": "gryffindor",
-        "question": "Who says the following quote? Dark and difficult times lie ahead. Soon we must all face the choice between what is right and what is easy.",
-        "answers": {
-          "first": " Severus Snape",
-          "second": "Albus Dumbledore",
-          "third": "Sirius Black",
-          "fourth": "Remus Lupin"
-        },
-        "correct": 1,
-        "info": "Albus Dumbledore says this to Harry in Harry Potter and the Golbet of Fire"
+    "correct": 1,
+    "info": "A prop is any object used on stage by actors during a play to enhance the storytelling or provide visual elements."
+  },
+  {
+    "id": 38,
+    "category": "Hufflepuff",
+    "question": "What is a script?",
+    "answers": {
+      "first": "A type of music composition",
+      "second": "A person who writes plays",
+      "third": "The person who directs a play",
+      "fourth": "The written text of a play"
     },
-    {
-        "id": 55,
-        "category": "gryffindor",
-        "question": "Who says the following quote? Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real?",
-        "answers": {
-          "first": "Albus Dumbledore",
-          "second": "Hermionie Granger",
-          "third": "Sirius Black",
-          "fourth": "Remus Lupin"
-        },
-        "correct": 0,
-        "info": "Albus Dumbledore says this to Harry in Harry Potter and the Deathly Hollows"
+    "correct": 3,
+    "info": "A script is the written text of a play, including the dialogue, stage directions, and other instructions for the actors and production team."
+  },
+  {
+    "id": 39,
+    "category": "Hufflepuff",
+    "question": "What is a comedy?",
+    "answers": {
+      "first": "A humorous play",
+      "second": "A serious and tragic play",
+      "third": "A type of dance performance",
+      "fourth": "A type of music composition"
     },
-    {
-        "id": 56,
-        "category": "gryffindor",
-        "question": "Who says the following quote? We've all got both light and dark inside us. What matters is the part we choose to act on",
-        "answers": {
-          "first": "Remus Lupin",
-          "second": "Hagrid",
-          "third": "Sirius Black",
-          "fourth": "Albus Dumbledore"
-        },
-        "correct": 2,
-        "info": "Sirus Black says this to Harry in Harry Potter and the Order of the Phoenix"
+    "correct": 0,
+    "info": "A comedy is a type of play or performance that aims to entertain and amuse the audience through humor, wit, and light-hearted situations."
+  },
+  {
+    "id": 40,
+    "category": "Hufflepuff",
+    "question": "What is a tragedy?",
+    "answers": {
+      "first": "A type of dance performance",
+      "second": "A serious and tragic play",
+      "third": "A humorous play",
+      "fourth": "A type of music composition"
     },
-    {
-        "id": 57,
-        "category": "gryffindor",
-        "question": "Who says the following quote? Happiness can be found even in the darkest of times if one only remembers to turn on the light.",
-        "answers": {
-          "first": "Remus Lupin",
-          "second": "Hagrid",
-          "third": "Sirius Black",
-          "fourth": "Albus Dumbledore"
-        },
-        "correct": 3,
-        "info": "Albus Dumbledore says this to the entrie school in Harry Potter and the Prisoner of Azkaban"
+    "correct": 1,
+    "info": "A tragedy is a serious and often sorrowful play or performance that depicts the downfall or suffering of a heroic character or characters."
+  },
+  {
+    "id": 41,
+    "category": "Hufflepuff",
+    "question": "Who is considered the father of modern drama?",
+    "answers": {
+      "first": "William Shakespeare",
+      "second": "Henrik Ibsen",
+      "third": "Anton Chekhov",
+      "fourth": "Arthur Miller"
     },
-    {
-        "id": 58,
-        "category": "gryffindor",
-        "question": "Where did the author of the Harry Potter series get the inspiration from for the characters names?",
-        "answers": {
-          "first": "Hospital",
-          "second": "Graveyard",
-          "third": "Libary",
-          "fourth": "Online"
-        },
-        "correct": 1,
-        "info": "The author got the inspiation for many character names from a graveyard in Edinburgh named Grey Friars, inlcuding Tom Riddle and McGonagall"
+    "correct": 1,
+    "info": "Henrik Ibsen is often referred to as the father of modern drama for his realistic plays that tackled social issues."
+  },
+  {
+    "id": 42,
+    "category": "Hufflepuff",
+    "question": "Which Greek playwright is known for his tragedies such as 'Oedipus Rex'?",
+    "answers": {
+      "first": "Sophocles",
+      "second": "Euripides",
+      "third": "Aristophanes",
+      "fourth": "Aeschylus"
     },
-    {
-        "id": 59,
-        "category": "gryffindor",
-        "question": "Which literary technique is used to depict the Dementors in the Harry Potter series?",
-        "answers": {
-          "first": "Allegory",
-          "second": "Symbolism",
-          "third": "Foreshadowing",
-          "fourth": "Simile"
-        },
-        "correct": 1,
-        "info": "Symbolism is a technique where an object, person, or situation represents a deeper meaning or idea. In the Harry Potter series, Dementors are dark, spectral beings that feed on happiness and drain positive emotions from individuals. They are depicted as soulless, cold, and bring a sense of despair and hopelessness."
+    "correct": 0,
+    "info": "Sophocles is renowned for his tragic plays, including 'Oedipus Rex,' which explores themes of fate and identity."
+  },
+  {
+    "id": 43,
+    "category": "Hufflepuff",
+    "question": "Which TV drama series is set in the fictional land of Westeros?",
+    "answers": {
+      "first": "Breaking Bad",
+      "second": "The Sopranos",
+      "third": "Game of Thrones",
+      "fourth": "The Walking Dead"
     },
-    {
-        "id": 60,
-        "category": "gryffindor",
-        "question": "How many times was Harry Potter rejected before it got accepted",
-        "answers": {
-          "first": "3",
-          "second": "7",
-          "third": "10",
-          "fourth": "12"
-        },
-        "correct": 3,
-        "info": "Harry Potter and the Philosopher's Stone was rejected 12 times before it was accepted by Bloomsbury. Even in the past, Bloomsbury rejected it but was eventually accepted by Bloomsbury atter the chairmans 8-year-old daughter took an interest in it"
-    }
-    
-    
+    "correct": 2,
+    "info": "Game of Thrones is an epic fantasy series known for its intricate plot, complex characters, and power struggles in the Seven Kingdoms of Westeros."
+  },
+  {
+    "id": 44,
+    "category": "Hufflepuff",
+    "question": "Which TV drama series follows the lives of advertising executives in 1960s New York?",
+    "answers": {
+      "first": "The Crown",
+      "second": "Mad Men",
+      "third": "Stranger Things",
+      "fourth": "The Handmaid's Tale"
+    },
+    "correct": 1,
+    "info": "Mad Men is a critically acclaimed drama that delves into the glamorous yet tumultuous world of Madison Avenue advertising in the 1960s."
+  },
+  {
+    "id": 45,
+    "category": "drama",
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "answers": {
+      "first": "William Shakespeare",
+      "second": "Arthur Miller",
+      "third": "Samuel Beckett",
+      "fourth": "Edward Albee"
+    },
+    "correct": 0,
+    "info": "William Shakespeare wrote the famous tragedy 'Romeo and Juliet,' which tells the story of two young lovers from feuding families."
+  },
+  {
+    "id": 46,
+    "category": "gryffindor",
+    "question": "Select the grammatically correct quote",
+    "answers": {
+      "first": "It does not do to dwell on dreams and forget to live.",
+      "second": "It doesn't to do to dwell on dream and forget to live.",
+      "third": "It does not do to dwell on dreems and forgot to live.",
+      "fourth": "It don't do to dwell on dreams and forgot to live."
+    },
+    "correct": 0,
+    "info": "Correct grammar and spelling is 'does not' and 'dreams'"
+  },
+  {
+    "id": 47,
+    "category": "gryffindor",
+    "question": "Select the grammatically correct quote",
+    "answers": {
+      "first": "It is our choices, Harry, that show what we truely are, far more than our abillities.",
+      "second": "It is our choices, Harry, that show what we truly are, far more than our abilities",
+      "third": "It is our choices, Harrry, that shows what we truly are, far moore than our abilities.",
+      "fourth": "It is our choices, Harry, that show what we truly are, far more than our  abilitys."
+    },
+    "correct": 1,
+    "info": "Correct grammar and spelling is 'Harry', 'show', 'truly', 'more' and 'abilities"
+  },
+  {
+    "id": 48,
+    "category": "gryffindor",
+    "question": "Select the grammatically correct quote",
+    "answers": {
+      "first": "Do not pity the dead, Harry. Pity the living, and, above all, these who live without love.",
+      "second": "Do not piity the dead, Harry. Pity the living, and, above alll, those who live without love.",
+      "third": "Donot pity the dead, Harry. Pity the livings, and, above all, those who live with out love",
+      "fourth": "Do not pity the dead, Harry. Pity the living, and, above all, those who live without love"
+    },
+    "correct": 3,
+    "info": "Correct grammar and spelling is 'do not', 'pity', 'those', 'all' and 'without'"
+  },
+  {
+    "id": 49,
+    "category": "gryffindor",
+    "question": "Select the grammatically correct quote",
+    "answers": {
+      "first": "You're mother died to save you. If there is one thing Voldemort cannot understand, it is love.",
+      "second": "Your mother dyed to save you. If there is one thing Voldemort cannot understand, it is love.",
+      "third": "Your mother died to save you. If there is one thing Voldemort cannot understand, it is love.",
+      "fourth": "Your mother died to save you. If their is one thing Voldemort cannot understand, it is love."
+    },
+    "correct": 2,
+    "info": "Correct grammar and spelling is 'your', 'died', 'there'"
+  },
+  {
+    "id": 50,
+    "category": "gryffindor",
+    "question": "Select the grammatically correct quote",
+    "answers": {
+      "first": "There is no good and evil, there is only power and those too weak to seek it.",
+      "second": "Their is no good and evil, their is only power and those too weak to seek it.",
+      "third": "They're is no good and evil, they're is only power and those too weak to seek it.",
+      "fourth": "There is no good and evil, there is only power and those to weak to seek it."
+    },
+    "correct": 0,
+    "info": "Correct grammar and spelling is 'there' and 'too'"
+  },
+  {
+    "id": 51,
+    "category": "gryffindor",
+    "question": "Select the grammatically correct quote",
+    "answers": {
+      "first": "I solemnly swear that I am up too no good.",
+      "second": "I solemnly swere that I am up to no good.",
+      "third": "I solemnly swear that I am up to no good.",
+      "fourth": "I solemnnly swear that I am up too no good."
+    },
+    "correct": 2,
+    "info": "Correct grammar and spelling is 'solemnly', 'swear', 'to'"
+  },
+  {
+    "id": 52,
+    "category": "gryffindor",
+    "question": "Who is the author of the Harry Potter book series?",
+    "answers": {
+      "first": "C.S. Lewi.",
+      "second": "J.K. Rowling.",
+      "third": "J.R.R. Tolkien.",
+      "fourth": "George R. R. Martin"
+    },
+    "correct": 1,
+    "info": "Joanne Kathleen Rowling (J.K Rowling) supposedly wrote the first 7 novels of Harry Potter in a cafe in Edinbrugh"
+  },
+  {
+    "id": 53,
+    "category": "gryffindor",
+    "question": "When was Harry Potter and the Philosopher's Stone published?",
+    "answers": {
+      "first": "1996",
+      "second": "1997",
+      "third": "1998",
+      "fourth": "1999"
+    },
+    "correct": 1,
+    "info": "Harry Potter and the Philosopher's stone was published on 26th June 1997"
+  },
+  {
+    "id": 54,
+    "category": "gryffindor",
+    "question": "Who says the following quote? Dark and difficult times lie ahead. Soon we must all face the choice between what is right and what is easy.",
+    "answers": {
+      "first": " Severus Snape",
+      "second": "Albus Dumbledore",
+      "third": "Sirius Black",
+      "fourth": "Remus Lupin"
+    },
+    "correct": 1,
+    "info": "Albus Dumbledore says this to Harry in Harry Potter and the Golbet of Fire"
+  },
+  {
+    "id": 55,
+    "category": "gryffindor",
+    "question": "Who says the following quote? Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real?",
+    "answers": {
+      "first": "Albus Dumbledore",
+      "second": "Hermionie Granger",
+      "third": "Sirius Black",
+      "fourth": "Remus Lupin"
+    },
+    "correct": 0,
+    "info": "Albus Dumbledore says this to Harry in Harry Potter and the Deathly Hollows"
+  },
+  {
+    "id": 56,
+    "category": "gryffindor",
+    "question": "Who says the following quote? We've all got both light and dark inside us. What matters is the part we choose to act on",
+    "answers": {
+      "first": "Remus Lupin",
+      "second": "Hagrid",
+      "third": "Sirius Black",
+      "fourth": "Albus Dumbledore"
+    },
+    "correct": 2,
+    "info": "Sirus Black says this to Harry in Harry Potter and the Order of the Phoenix"
+  },
+  {
+    "id": 57,
+    "category": "gryffindor",
+    "question": "Who says the following quote? Happiness can be found even in the darkest of times if one only remembers to turn on the light.",
+    "answers": {
+      "first": "Remus Lupin",
+      "second": "Hagrid",
+      "third": "Sirius Black",
+      "fourth": "Albus Dumbledore"
+    },
+    "correct": 3,
+    "info": "Albus Dumbledore says this to the entrie school in Harry Potter and the Prisoner of Azkaban"
+  },
+  {
+    "id": 58,
+    "category": "gryffindor",
+    "question": "Where did the author of the Harry Potter series get the inspiration from for the characters names?",
+    "answers": {
+      "first": "Hospital",
+      "second": "Graveyard",
+      "third": "Libary",
+      "fourth": "Online"
+    },
+    "correct": 1,
+    "info": "The author got the inspiation for many character names from a graveyard in Edinburgh named Grey Friars, inlcuding Tom Riddle and McGonagall"
+  },
+  {
+    "id": 59,
+    "category": "gryffindor",
+    "question": "Which literary technique is used to depict the Dementors in the Harry Potter series?",
+    "answers": {
+      "first": "Allegory",
+      "second": "Symbolism",
+      "third": "Foreshadowing",
+      "fourth": "Simile"
+    },
+    "correct": 1,
+    "info": "Symbolism is a technique where an object, person, or situation represents a deeper meaning or idea. In the Harry Potter series, Dementors are dark, spectral beings that feed on happiness and drain positive emotions from individuals. They are depicted as soulless, cold, and bring a sense of despair and hopelessness."
+  },
+  {
+    "id": 60,
+    "category": "gryffindor",
+    "question": "How many times was Harry Potter rejected before it got accepted",
+    "answers": {
+      "first": "3",
+      "second": "7",
+      "third": "10",
+      "fourth": "12"
+    },
+    "correct": 3,
+    "info": "Harry Potter and the Philosopher's Stone was rejected 12 times before it was accepted by Bloomsbury. Even in the past, Bloomsbury rejected it but was eventually accepted by Bloomsbury atter the chairmans 8-year-old daughter took an interest in it"
+  }
 ]
