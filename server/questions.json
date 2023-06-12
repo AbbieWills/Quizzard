@@ -403,4 +403,201 @@
       "info": "William Shakespeare wrote the famous tragedy 'Romeo and Juliet,' which tells the story of two young lovers from feuding families."
     },
 
+    {
+        "id": 46,
+        "category": "gryffindor",
+        "question": "Select the grammatically correct quote",
+        "answers": {
+          "first": "It does not do to dwell on dreams and forget to live.",
+          "second": "It doesn't to do to dwell on dream and forget to live.",
+          "third": "It does not do to dwell on dreems and forgot to live.",
+          "fourth": "It don't do to dwell on dreams and forgot to live."
+        },
+        "correct": 0,
+        "info": "Correct grammar and spelling is 'does not' and 'dreams'"
+      },
+      {
+        "id": 47,
+        "category": "gryffindor",
+        "question": "Select the grammatically correct quote",
+        "answers": {
+          "first": "It is our choices, Harry, that show what we truely are, far more than our abillities.",
+          "second": "It is our choices, Harry, that show what we truly are, far more than our abilities",
+          "third": "It is our choices, Harrry, that shows what we truly are, far moore than our abilities.",
+          "fourth": "It is our choices, Harry, that show what we truly are, far more than our  abilitys."
+        },
+        "correct": 1,
+        "info": "Correct grammar and spelling is 'Harry', 'show', 'truly', 'more' and 'abilities"
+    },
+    {
+        "id": 48,
+        "category": "gryffindor",
+        "question": "Select the grammatically correct quote",
+        "answers": {
+          "first": "Do not pity the dead, Harry. Pity the living, and, above all, these who live without love.",
+          "second": "Do not piity the dead, Harry. Pity the living, and, above alll, those who live without love.",
+          "third": "Donot pity the dead, Harry. Pity the livings, and, above all, those who live with out love",
+          "fourth": "Do not pity the dead, Harry. Pity the living, and, above all, those who live without love"
+        },
+        "correct": 3,
+        "info": "Correct grammar and spelling is 'do not', 'pity', 'those', 'all' and 'without'"
+    },
+    {
+        "id": 49,
+        "category": "gryffindor",
+        "question": "Select the grammatically correct quote",
+        "answers": {
+          "first": "You're mother died to save you. If there is one thing Voldemort cannot understand, it is love.",
+          "second": "Your mother dyed to save you. If there is one thing Voldemort cannot understand, it is love.",
+          "third": "Your mother died to save you. If there is one thing Voldemort cannot understand, it is love.",
+          "fourth": "Your mother died to save you. If their is one thing Voldemort cannot understand, it is love."
+        },
+        "correct": 2,
+        "info": "Correct grammar and spelling is 'your', 'died', 'there'"
+    },
+    {
+        "id": 50,
+        "category": "gryffindor",
+        "question": "Select the grammatically correct quote",
+        "answers": {
+          "first": "There is no good and evil, there is only power and those too weak to seek it.",
+          "second": "Their is no good and evil, their is only power and those too weak to seek it.",
+          "third": "They're is no good and evil, they're is only power and those too weak to seek it.",
+          "fourth": "There is no good and evil, there is only power and those to weak to seek it."
+        },
+        "correct": 0,
+        "info": "Correct grammar and spelling is 'there' and 'too'"
+    },
+    {
+        "id": 51,
+        "category": "gryffindor",
+        "question": "Select the grammatically correct quote",
+        "answers": {
+          "first": "I solemnly swear that I am up too no good.",
+          "second": "I solemnly swere that I am up to no good.",
+          "third": "I solemnly swear that I am up to no good.",
+          "fourth": "I solemnnly swear that I am up too no good."
+        },
+        "correct": 2,
+        "info": "Correct grammar and spelling is 'solemnly', 'swear', 'to'"
+    },
+    {
+        "id": 52,
+        "category": "gryffindor",
+        "question": "Who is the author of the Harry Potter book series?",
+        "answers": {
+          "first": "C.S. Lewi.",
+          "second": "J.K. Rowling.",
+          "third": "J.R.R. Tolkien.",
+          "fourth": "George R. R. Martin"
+        },
+        "correct": 1,
+        "info": "Joanne Kathleen Rowling (J.K Rowling) supposedly wrote the first 7 novels of Harry Potter in a cafe in Edinbrugh"
+    },
+    {
+        "id": 53,
+        "category": "gryffindor",
+        "question": "When was Harry Potter and the Philosopher's Stone published?",
+        "answers": {
+          "first": "1996",
+          "second": "1997",
+          "third": "1998",
+          "fourth": "1999"
+        },
+        "correct": 1,
+        "info": "Harry Potter and the Philosopher's stone was published on 26th June 1997"
+    },
+    {
+        "id": 54,
+        "category": "gryffindor",
+        "question": "Who says the following quote? Dark and difficult times lie ahead. Soon we must all face the choice between what is right and what is easy.",
+        "answers": {
+          "first": " Severus Snape",
+          "second": "Albus Dumbledore",
+          "third": "Sirius Black",
+          "fourth": "Remus Lupin"
+        },
+        "correct": 1,
+        "info": "Albus Dumbledore says this to Harry in Harry Potter and the Golbet of Fire"
+    },
+    {
+        "id": 55,
+        "category": "gryffindor",
+        "question": "Who says the following quote? Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real?",
+        "answers": {
+          "first": "Albus Dumbledore",
+          "second": "Hermionie Granger",
+          "third": "Sirius Black",
+          "fourth": "Remus Lupin"
+        },
+        "correct": 0,
+        "info": "Albus Dumbledore says this to Harry in Harry Potter and the Deathly Hollows"
+    },
+    {
+        "id": 56,
+        "category": "gryffindor",
+        "question": "Who says the following quote? We've all got both light and dark inside us. What matters is the part we choose to act on",
+        "answers": {
+          "first": "Remus Lupin",
+          "second": "Hagrid",
+          "third": "Sirius Black",
+          "fourth": "Albus Dumbledore"
+        },
+        "correct": 2,
+        "info": "Sirus Black says this to Harry in Harry Potter and the Order of the Phoenix"
+    },
+    {
+        "id": 57,
+        "category": "gryffindor",
+        "question": "Who says the following quote? Happiness can be found even in the darkest of times if one only remembers to turn on the light.",
+        "answers": {
+          "first": "Remus Lupin",
+          "second": "Hagrid",
+          "third": "Sirius Black",
+          "fourth": "Albus Dumbledore"
+        },
+        "correct": 3,
+        "info": "Albus Dumbledore says this to the entrie school in Harry Potter and the Prisoner of Azkaban"
+    },
+    {
+        "id": 58,
+        "category": "gryffindor",
+        "question": "Where did the author of the Harry Potter series get the inspiration from for the characters names?",
+        "answers": {
+          "first": "Hospital",
+          "second": "Graveyard",
+          "third": "Libary",
+          "fourth": "Online"
+        },
+        "correct": 1,
+        "info": "The author got the inspiation for many character names from a graveyard in Edinburgh named Grey Friars, inlcuding Tom Riddle and McGonagall"
+    },
+    {
+        "id": 59,
+        "category": "gryffindor",
+        "question": "Which literary technique is used to depict the Dementors in the Harry Potter series?",
+        "answers": {
+          "first": "Allegory",
+          "second": "Symbolism",
+          "third": "Foreshadowing",
+          "fourth": "Simile"
+        },
+        "correct": 1,
+        "info": "Symbolism is a technique where an object, person, or situation represents a deeper meaning or idea. In the Harry Potter series, Dementors are dark, spectral beings that feed on happiness and drain positive emotions from individuals. They are depicted as soulless, cold, and bring a sense of despair and hopelessness."
+    },
+    {
+        "id": 60,
+        "category": "gryffindor",
+        "question": "How many times was Harry Potter rejected before it got accepted",
+        "answers": {
+          "first": "3",
+          "second": "7",
+          "third": "10",
+          "fourth": "12"
+        },
+        "correct": 3,
+        "info": "Harry Potter and the Philosopher's Stone was rejected 12 times before it was accepted by Bloomsbury. Even in the past, Bloomsbury rejected it but was eventually accepted by Bloomsbury atter the chairmans 8-year-old daughter took an interest in it"
+    }
+    
+    
 ]
