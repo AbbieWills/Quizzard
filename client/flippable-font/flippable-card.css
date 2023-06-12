@@ -5,7 +5,7 @@
 
 h1 {
   font-family: "HarryPotter", sans-serif;
-  font-size: 70px;
+  font-size: 60px;
 }
 
 body {
@@ -92,4 +92,32 @@ body {
   height: 72px;
   width: 88px;
   margin-right: 20px;
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 680px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 490px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .nav-empty-crest img {
+    display: none;
+  }
+}
+
+.footer {
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: center;
 }
