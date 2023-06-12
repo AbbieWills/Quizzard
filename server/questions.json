@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "category": "ravenclaw",
+    "question": "What is a cadence?",
+    "answers": {
+      "first": "A chord progression of at least 2 chords that ends a phrase or section of a piece of music",
+      "second": "A note that starts a piece of music",
+      "third": "A popular genre of music in the 16th Century",
+      "fourth": "A musical instrument"
+    },
+    "correct": 0,
+    "info": "A harmonic cadence is a progression of two or more chords that concludes a phrase, section, or piece of music. Cadences are divided into four main types, according to their harmonic progression: authentic (typically perfect authentic or imperfect authentic), half, plagal, and deceptive."
+  },
+  {
+    "id": 2,
+    "category": "ravenclaw",
+    "question": "'Hey Jude' is a popular song written by which famous band?",
+    "answers": {
+      "first": "The Stone Roses",
+      "second": "The Beatles",
+      "third": "The Rolling Stones",
+      "fourth": "Blondie"
+    },
+    "correct": 1,
+    "info": "'Hey Jude' is a song by the English rock band the Beatles that was released as a non-album single in August 1968. At over seven minutes in length, 'Hey Jude' was the longest single to top the British charts up to that time. Paul McCartney has continued to perform 'Hey Jude' in concert since John Lennon's murder in 1980, leading audiences in singing the ending section."
+  },
+  {
+    "id": 3,
+    "category": "ravenclaw",
+    "question": "Which Italian tempo marking means 'at walking pace'?",
+    "answers": {
+      "first": "Moderato",
+      "second": "Adagio",
+      "third": "Rubato",
+      "fourth": "Andante"
+    },
+    "correct": 3,
+    "info": "The literal meaning of the Italian word 'Andante' is 'at a walking pace', with suggestions of 'easy-going'. Haydn and Mozart saw 'Andante' as signifying something not just faster than 'Adagio'- the classic slow movement marking- but lighter in character. See Mozart's 'The Marriage of Figaro'!"
+  },
+  {
+    "id": 4,
+    "category": "ravenclaw",
+    "question": "What country is known for the Sitar?",
+    "answers": {
+      "first": "India",
+      "second": "England",
+      "third": "France",
+      "fourth": "Russia"
+    },
+    "correct": 0,
+    "info": "The sitar is a plucked stringed instrument, originating from the Indian subcontinent, used in Hindustani classical music. The advent of Psychedelic culture during the mid-to late 1960s created a trend for the use of the sitar in Western popular music, with the instrument appearing on tracks by bands such as the Beatles, the Doors, the Rolling Stones and others."
+  },
+  {
+    "id": 5,
+    "category": "ravenclaw",
+    "question": "What is it called when someone sings in a much higher register than their natural voice?",
+    "answers": {
+      "first": "Falsetto",
+      "second": "Staccato",
+      "third": "Tenor",
+      "fourth": "Chord"
+    },
+    "correct": 0,
+    "info": "Falsetto is the vocal register occupying the frequency range just above the 'normal' voice register. The pop disco group Bee Gees had strong commercial success using Barry Gibb and Robin Gibb falsetto voices in the 1970s and then utilising Maurice Gibb singing Falsetto Harmony, most notably within the disco genre."
+  },
+  {
+    "id": 6,
+    "category": "ravenclaw",
+    "question": "Which of these best describes the Grime genre?",
+    "answers": {
+      "first": "It draws influences from Reggae",
+      "second": "It draws influences from pop and disco",
+      "third": "It draws influences from jungle, dancehall, and hip hop",
+      "fourth": "It draws influences from classical"
+    },
+    "correct": 2,
+    "info": "Grime is a genre of electronic dance music that emerged in London in the early 2000s. It developed out of the earlier UK dance style UK garage, and draws influences from jungle, dancehall, and hip hop. Dizzee Rascal, Wiley, Kano and Lethal Bizzle were among the first to bring the genre to mainstream media attention in 2003-2004."
+  },
+  {
+    "id": 7,
+    "category": "ravenclaw",
+    "question": "Which of these instruments does not belong in the brass section of the orchestra?",
+    "answers": {
+      "first": "Tuba",
+      "second": "Trumpet",
+      "third": "Trombone",
+      "fourth": "Saxophone"
+    },
+    "correct": 3,
+    "info": "The saxophone (often referred to as the sax) is a type of single-reed woodwind instrument. The pitch of a saxophone is controlled by opening or closing the tone holes along the body of the instrument to change the length of the vibrating air column."
+  },
+  {
+    "id": 8,
+    "category": "ravenclaw",
+    "question": "'Dance Monkey' is a popular song written by whom?",
+    "answers": {
+      "first": "Mariah Carey",
+      "second": "Tones And I",
+      "third": "Mae Muller",
+      "fourth": "Prince"
+    },
+    "correct": 1,
+    "info": "'Dance Monkey' is a song by Australian singer Tones and I, released on 10 May 2019. When interviewed by DJ Smallzy in July 2019 on Australian radio station Nova FM, Tones explained that Dance Monkey's lyrics are about the relationship she had with her audience when she was busking (street performing) on the streets of Australia."
+  },
+  {
+    "id": 9,
+    "category": "ravenclaw",
+    "question": "What does 'A cappella' mean?",
+    "answers": {
+      "first": "Singing in unison",
+      "second": "No singing",
+      "third": "Singing unaccompanied",
+      "fourth": "Singing with an accopaniment"
+    },
+    "correct": 2,
+    "info": "A cappella music is a performance by a singer or a singing group without instrumental accompaniment. In addition to singing words, some a cappella singers also emulate instrumentation by reproducing instrumental sounds with their vocal cords and mouth, often pitched using specialised pitch pipes."
+  },
+  {
+    "id": 10,
+    "category": "ravenclaw",
+    "question": "What is the highest type of singing voice?",
+    "answers": {
+      "first": "Soprano",
+      "second": "Bass",
+      "third": "Alto",
+      "fourth": "Tenor"
+    },
+    "correct": 0,
+    "info": "A soprano is a type of classical female singing voice and has the highest vocal range of all voice types. The soprano voice type is generally divided into the coloratura, soubrette, lyric, spinto, and dramatic soprano."
+  },
+  {
+    "id": 11,
+    "category": "ravenclaw",
+    "question": "How many strings does an electric bass guitar usually have?",
+    "answers": {
+      "first": "3",
+      "second": "4",
+      "third": "5",
+      "fourth": "6"
+    },
+    "correct": 1,
+    "info": "The bass guitar, electric bass or simply bass is the lowest-pitched member of the guitar family. It is a plucked string instrument similar in appearance and construction to an electric or acoustic guitar, but with a longer neck and scale length, and typically four strings. The four-string bass guitar is usually tuned the same as the double bass, which corresponds to pitches one octave lower than the four lowest-pitched strings of a guitar (typically E, A, D, and G). It is played primarily with the fingers or thumb, or with a pick."
+  },
+  {
+    "id": 11,
+    "category": "ravenclaw",
+    "question": "Which of these best characterises 'atonal' music?",
+    "answers": {
+      "first": "Music with one key",
+      "second": "Music that isn't part of a genre",
+      "third": "Music that has two keys",
+      "fourth": "Music without a key"
+    },
+    "correct": 3,
+    "info": "Atonality in its broadest sense is music that lacks a tonal center, or key. Atonality, in this sense, usually describes compositions written from about the early 20th-century to the present day, where a hierarchy of harmonies focusing on a single, central triad is not used, and the notes of the chromatic scale function independently of one another. Late 19th- and early 20th-century composers such as Alexander Scriabin, Claude Debussy, Béla Bartók, Paul Hindemith, Sergei Prokofiev, Igor Stravinsky, and Edgard Varèse have written music that has been described, in full or in part, as atonal."
+  },
+  {
+    "id": 12,
+    "category": "ravenclaw",
+    "question": "A 2-5-1 is a type of what?",
+    "answers": {
+      "first": "Key",
+      "second": "Chord Progression",
+      "third": "Instrument",
+      "fourth": "Picking style"
+    },
+    "correct": 1,
+    "info": "A 2-5-1 chord progression (aka: ii-V-I) is a common musical convention of three consecutive chords which effectively establish a key. See Miles Davis's 'Tune Up'."
+  },
+  {
+    "id": 13,
+    "category": "ravenclaw",
+    "question": "Which of these genres best describes Miley Cyrus?",
+    "answers": {
+      "first": "Pop and Country",
+      "second": "Pop and Classical",
+      "third": "Pop and Metal",
+      "fourth": "Pop and Jazz"
+    },
+    "correct": 0,
+    "info": "Miley Ray Cyrus is an American singer and songwriter best known for her pop, rock and country influences. Dubbed the 'Pop Chameleon', she has been recognized for her musical versatility and continual reinvention in her sound and style."
+  },
+  {
+    "id": 14,
+    "category": "ravenclaw",
+    "question": "Who originally wrote 'Hallelujah'?",
+    "answers": {
+      "first": "Bon Jovi",
+      "second": "Miley Cyrus",
+      "third": "Led Zeppelin",
+      "fourth": "Leonard Cohen"
+    },
+    "correct": 3,
+    "info": "'Hallelujah' is a song written by Canadian singer Leonard Cohen, originally released on his album Various Positions (1984). Cohen is said to have claimed 150 draft verses."
+  },
+  {
+    "id": 15,
+    "category": "ravenclaw",
+    "question": "Which period dates 1830-1900?",
+    "answers": {
+      "first": "Classical",
+      "second": "Baroque",
+      "third": "Romantic",
+      "fourth": "Renaissance"
+    },
+    "correct": 2,
+    "info": "Romantic music is a stylistic movement in Western Classical music associated with the period of the 19th century commonly referred to as the Romantic era (or Romantic period). The Romantic period tended to make greater use of longer, more fully defined and more emotionally evocative themes."
+  }
+]
