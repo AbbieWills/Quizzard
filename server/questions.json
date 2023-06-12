@@ -1,0 +1,197 @@
+[
+    {
+        "id": 16,
+        "category": "Slytherin",
+        "question": "What is a 'Brunaille'?",
+        "answers": {
+            "first": "A painting which has a velvety finish",
+            "second": "A painting which is circular in shape",
+            "third": "A painting which does not contain any human forms",
+            "fourth": "A painting done mostly or entirely in shades of brown"
+        },
+        "correct": 3,
+        "info": "Brunaille has its origins in 12th century stained glass made for Cistercian monasteries"
+    },
+    {
+        "id": 17,
+        "category": "Slytherin",
+        "question": "who painted the picture the stray night",
+        "answers": {
+            "first": "Leonardo da Vinci",
+            "second": "Vincent van Gogh",
+            "third": "Pablo Picasso",
+            "fourth": "Johannes Vermeer"
+        },
+        "correct": 1,
+        "info": "Vincent van Gogh painted Starry Night in 1889 during his stay at the asylum of Saint-Paul-de-Mausole near Saint-Rémy-de-Provence"
+    },
+    {
+        "id": 18,
+        "category": "Slytherin",
+        "question": "What is the key material used in marmotinto?",
+        "answers": {
+            "first": "Sand",
+            "second": "Oil",
+            "third": "Water",
+            "fourth": "Wax"
+        },
+        "correct": 0,
+        "info": "Marmotinto is the art of creating pictures using coloured sand or marble dust and is also known as sand painting"
+    },
+    {
+        "id": 19,
+        "category": "Slytherin",
+        "question": "What is gilding?",
+        "answers": {
+            "first": "Covering a large area with paint very quickly",
+            "second": "Applying fine gold leaf or powder to solid surfaces",
+            "third": "Using minute detail to draw the viewer's eye",
+            "fourth": "Building thick layers of paint up on a canvas"
+        },
+        "correct": 1,
+        "info": "Methods of gilding include hand application and glueing, chemical gilding, and electroplating. Objects treated this way are known as 'gilt'"
+    },
+    {
+        "id": 20,
+        "category": "Slytherin",
+        "question": "How is paint applied when creating 'Impasto'?",
+        "answers": {
+            "first": "Very thinly",
+            "second": "In several thin layers",
+            "third": "One colour at a time",
+            "fourth": "Very thickly"
+        },
+        "correct": 3,
+        "info": "The paint is usually thick enough to see the brush or knife strokes as it has been applied"
+    },
+    {
+        "id": 21,
+        "category": "Slytherin",
+        "question": "What is 'faux painting'",
+        "answers": {
+            "first": "A painting technique which creates a shadow",
+            "second": "An artistic technique which shows the artists within the painting",
+            "third": "A method for applying paint to a canvas without using brushes",
+            "fourth": "A painting technique to replicate the finish of materials such as wood or marble"
+        },
+        "correct": 3,
+        "info": "Faux painting became popular in classical times in the forms of faux marble, faux wood, and trompe l'oeil murals which 'trick the eye'"
+    },
+    {
+        "id": 22,
+        "category": "Slytherin",
+        "question": "who painted the picture of mona lisa",
+        "answers": {
+            "first": "Leonardo DiCaprio",
+            "second": "Sandro Botticelli",
+            "third": "Leonardo da Vinci",
+            "fourth": "Vincent van Gogh"
+        },
+        "correct": 2,
+        "info": "The Mona Lisa painting is one of the most emblematic portraits in the history of art, where is located at the Louvre."
+    },
+    {
+        "id": 23,
+        "category": "Slytherin",
+        "question": "Painting has a lot to do with colour. What do we call the selection of colours an artist chooses to use?",
+        "answers": {
+            "first": "His colour box",
+            "second": "His colour wheel",
+            "third": "His colour palette",
+            "fourth": "His colour brush"
+        },
+        "correct": 2,
+        "info": "Some artists use a very limited palette, others use colour to provoke a particular emotion"
+    },
+    {
+        "id": 24,
+        "category": "Slytherin",
+        "question": "During the Renaissance, a particular type of painting was popular. It involved painting directly onto plaster which was wet. What was this called?",
+        "answers": {
+            "first": "Freezer painting",
+            "second": "Fresco painting",
+            "third": "Fashion painting",
+            "fourth": "Fisher painting"
+        },
+        "correct": 1,
+        "info": "Buon fresco technique consists of painting in pigment mixed with water on a thin layer of wet, fresh lime mortar or plaster"
+    },
+    {
+        "id": 25,
+        "category": "Slytherin",
+        "question": "Which of the following types of brushes might a professional artist be likely to leave on the shelf?",
+        "answers": {
+            "first": "Sable",
+            "second": "Ox hair",
+            "third": "Hog bristle",
+            "fourth": "Synthetic"
+        },
+        "correct": 3,
+        "info": "Natural bristles are usually preferable - some are even made from squirrel, pony or mongoose hair!"
+    },
+    {
+        "id": 26,
+        "category": "Slytherin",
+        "question": "A deep blue paint was made by crushing the valuable gemstone lapis lazuli. As it was so expensive, it was usually only used for what?",
+        "answers": {
+            "first": "Large expanses of sky",
+            "second": "Seascapes",
+            "third": "Painting the eyes of rich ladies",
+            "fourth": "The robes of the Virgin Mary"
+        },
+        "correct": 3,
+        "info": "If a picture included a woman wearing clothes painted with lapis blue, people understood it was probably Jesus' mother"
+    },
+    {
+        "id": 27,
+        "category": "Slytherin",
+        "question": "Which are the two usual ways for a canvas orientation to be described?",
+        "answers": {
+            "first": "Seascape and photograph",
+            "second": "Skyscraper and underground",
+            "third": "Sideways and longways",
+            "fourth": "Landscape and portrait"
+        },
+        "correct": 3,
+        "info": "This also refers to what you might expect to see on the canvas when it hangs that way!"
+    },
+    {
+        "id": 28,
+        "category": "Slytherin",
+        "question": "What can be found at the Grotte Chauvet in France?",
+        "answers": {
+            "first": "Some of the oldest paintings known to man",
+            "second": "The first man-made paintbrush",
+            "third": "The best example of a portrait",
+            "fourth": "The first use of the colour blue"
+        },
+        "correct": 0,
+        "info": "They are painted using red and black and show horses, rhinoceroses, lions, buffalos, mammoths and what are possibly human figures. They are around 32,000 years old"
+    },
+    {
+        "id": 29,
+        "category": "Slytherin",
+        "question": "Although acrylic paints are water-based, what happens to them when they dry?",
+        "answers": {
+            "first": "They become waterproof",
+            "second": "Their colour fades",
+            "third": "They change colour dramatically",
+            "fourth": "They develop a rippled texture"
+        },
+        "correct": 0,
+        "info": "Acrylic paint is fast drying paint containing pigment suspension in acrylic polymer emulsion"
+    },
+    {
+        "id": 30,
+        "category": "Slytherin",
+        "question": "What does the term 'monochrome' mean?",
+        "answers": {
+            "first": "Created in silence",
+            "second": "Being mainly of one colour palette",
+            "third": "Abstract work using mixed media",
+            "fourth": "Paintings completed outdoors"
+        },
+        "correct": 1,
+        "info": "Monochromatic works use either one colour, or shades of a colour and can apply to painting, drawing or photography"
+    }
+]
