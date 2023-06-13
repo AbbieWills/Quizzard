@@ -107,6 +107,7 @@ body {
 .front {
   position: absolute;
   width: 100%;
+  border-radius: 10px;
   height: 100%;
   backface-visibility: hidden;
   /*card front color*/
@@ -143,6 +144,7 @@ body {
 .back {
   position: absolute;
   width: 100%;
+  border-radius: 10px;
   height: 100%;
   backface-visibility: hidden;
   /*card back color*/
