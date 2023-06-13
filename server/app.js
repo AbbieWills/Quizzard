@@ -30,35 +30,35 @@ app.get("/", function (req, res) {
 
 //all questions
 app.get("/questions", function (req, res) {
-  res.send(questions);
+  res.status(200).send(questions);
 });
 
 //10 ravenclaw questions
 app.get("/ravenclaw", function (req, res) {
   let filteredQuestions = filter("ravenclaw");
   let result = randomFunc(filteredQuestions);
-  res.send(result);
+  res.status(200).send(result);
 });
 
 //10 gryffindor questions
 app.get("/gryffindor", function (req, res) {
   let filteredQuestions = filter("gryffindor");
   let result = randomFunc(filteredQuestions);
-  res.send(result);
+  res.status(200).send(result);
 });
 
 //10 hufflepuff questions
 app.get("/hufflepuff", function (req, res) {
   let filteredQuestions = filter("Hufflepuff");
   let result = randomFunc(filteredQuestions);
-  res.send(result);
+  res.res.status(200).send(result);
 });
 
 //10 slytherin questions
 app.get("/slytherin", function (req, res) {
   let filteredQuestions = filter("slytherin");
   let result = randomFunc(filteredQuestions);
-  res.send(result);
+  res.res.status(200).send(result);
 });
 
 module.exports = app;
