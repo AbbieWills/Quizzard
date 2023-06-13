@@ -4,6 +4,7 @@ const answerOne = document.querySelector("#answer-one");
 const answerTwo = document.querySelector("#answer-two");
 const answerThree = document.querySelector("#answer-three");
 const answerFour = document.querySelector("#answer-four");
+const tryAgain = document.querySelector(".incorrect-text");
 const score = document.querySelector("#points");
 
 const flipCard = () => {
@@ -14,7 +15,7 @@ const flipCard = () => {
 
 let questionsArray = [];
 
-logJSONData = async () => {
+logJSONDataSlytherin = async () => {
   try {
     const response = await fetch("http://localhost:3000/slytherin");
     if (response.ok) {
@@ -33,13 +34,15 @@ logJSONData = async () => {
   }
 };
 
-logJSONData();
+logJSONDataSlytherin();
 
 const checkAnswerOne = () => {
   if (questionsArray[0][0].correct == 0) {
     answerOne.style.backgroundColor = "green";
     answerOne.style.color = "white";
+    tryAgain.textContent = "That's correct- click me to find out more";
   } else {
+    tryAgain.textContent = "That's incorrect- Try again";
     answerOne.style.backgroundColor = "red";
     answerOne.style.color = "white";
   }
@@ -47,9 +50,11 @@ const checkAnswerOne = () => {
 
 const checkAnswerTwo = () => {
   if (questionsArray[0][0].correct == 1) {
-    answerOne.style.backgroundColor = "green";
-    answerOne.style.color = "white";
+    answerTwo.style.backgroundColor = "green";
+    answerTwo.style.color = "white";
+    tryAgain.textContent = "That's correct- click me to find out more";
   } else {
+    tryAgain.textContent = "That's incorrect- Try again";
     answerTwo.style.backgroundColor = "red";
     answerTwo.style.color = "white";
   }
@@ -57,9 +62,11 @@ const checkAnswerTwo = () => {
 
 const checkAnswerThree = () => {
   if (questionsArray[0][0].correct == 2) {
-    answerOne.style.backgroundColor = "green";
-    answerOne.style.color = "white";
+    answerThree.style.backgroundColor = "green";
+    answerThree.style.color = "white";
+    tryAgain.textContent = "That's correct- click me to find out more";
   } else {
+    tryAgain.textContent = "That's incorrect- Try again";
     answerThree.style.backgroundColor = "red";
     answerThree.style.color = "white";
   }
@@ -67,9 +74,11 @@ const checkAnswerThree = () => {
 
 const checkAnswerFour = () => {
   if (questionsArray[0][0].correct == 3) {
-    answerOne.style.backgroundColor = "green";
-    answerOne.style.color = "white";
+    answerFour.style.backgroundColor = "green";
+    answerFour.style.color = "white";
+    tryAgain.textContent = "That's correct- click me to find out more";
   } else {
+    tryAgain.textContent = "That's incorrect- Try again";
     answerFour.style.backgroundColor = "red";
     answerFour.style.color = "white";
   }
