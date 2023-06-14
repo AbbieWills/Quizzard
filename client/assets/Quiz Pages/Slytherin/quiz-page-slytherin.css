@@ -1,6 +1,12 @@
 @font-face {
   font-family: "HarryPotter";
-  src: url("../assets/fonts/HARRYP__.TTF") format("truetype");
+  src: url("/client/assets/HARRYP__.TTF") format("truetype");
+}
+
+/* Title color for new anchor tag when house photo is clicked */
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 h1 {

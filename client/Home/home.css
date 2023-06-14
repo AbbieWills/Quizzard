@@ -1,7 +1,7 @@
 /* Harry Potter Font */
 @font-face {
     font-family: "HarryPotter";
-    src: url(./HARRYP__.TTF) format("truetype");
+    src: url(/client/assets/HARRYP__.TTF) format("truetype");
   }
 
 /* Heading */
@@ -49,10 +49,6 @@
     padding-bottom: 10px;
   }
 
-/* Crest to change color on hover */
-
-  
-  
   
 /* Heading font size changes in response to screen size  */
   @media (max-width: 750px) {
@@ -81,7 +77,6 @@
     background-color: #dde6ed
  }
 
- 
  /* Font size for Choose Your House changes in response to screen size */
   @media (max-width: 4000px) {
     .choose-house {
@@ -126,9 +121,6 @@ p {
     padding: 10px 10px 100px 50px;
     max-width: 90%;
  }
-
-
-
 
  /* Footer */
  .footer {
