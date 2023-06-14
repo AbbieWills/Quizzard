@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/client/assets/Quiz Pages/Ravenclaw/quiz-page-ravenclaw.css" />
+    <script defer src="/client/assets/Quiz Pages/Ravenclaw/quiz-page-ravenclaw.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-home">
+        <img src="/client/assets/images/crest-white.svg" alt="Hogwarts Crest Homepage" />
+      </div>
+      <a href="/client/Home/home-page.html">
+        <h1 class="nav-header">Are you a Quizzard?</h1>
+        </a>
+      <div class="nav-empty-crest">
+        <img src="/client/assets/images/crest-white.svg" alt="Hogwarts Crest Homepage" />
+      </div>
+    </nav>
+    <div class="holding-container">
+      <div class="main-container">
+        <div class="card">
+          <div class="front">
+            <h2 id="question"></h2>
+            <button id="answer-one"><h2></h2></button>
+            <button id="answer-two"><h2></h2></button>
+            <button id="answer-three"><h2></h2></button>
+            <button id="answer-four"><h2></h2></button>
+            <p class="incorrect-text">Click an answer!</p>
+          </div>
+          <div class="back">
+            <h1 id="correct-text">Correct!</h1>
+            <h2 id="correct-question"></h2>
+            <h2 id="correct-answer"></h2>
+            <p id="extra-info"></p>
+            <button>Next Question</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <h1 id="points">Score: 0</h1>
+    </footer>
+  </body>
+</html>
