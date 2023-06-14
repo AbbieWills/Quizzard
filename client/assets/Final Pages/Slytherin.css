@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "HarryPotter";
+    src: url(/client/assets/fonts/HARRYP__.TTF);
+
+}
+
+h1 {
+    font-family: "HarryPotter", sans-serif;
+    font-size: 60px;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+
+.nav {
+    height: 90px;
+    background-color: #366447;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 90px;
+    width: 100%;
+    background-color: #366447;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-home {
+    flex: 0.05;
+    margin-left: 20px;
+}
+
+.nav-home img {
+    height: 72px;
+    width: 88px;
+}
+
+.nav-header {
+    flex: 0.95;
+    text-align: center;
+}
+
+.nav-empty-crest {
+    flex: 0.05;
+}
+
+.nav-empty-crest img {
+    height: 72px;
+    width: 88px;
+    margin-right: 20px;
+}
+
+@media (max-width: 750px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 680px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 490px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .nav-empty-crest img {
+        display: none;
+    }
+}
+
+.middle {
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    width: 1492px;
+    height: 550px;
+    background-color: #f2f2f2;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.mudblood {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+
+
+.top {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    width: 80%;
+    height: 50px;
+    background-color: #f2f2f2;
+    border: 2px solid #ccc;
+    border-bottom: none;
+    text-align: center;
+    line-height: 50px;
+    font-family: "HarryPotter";
+
+}
+
+.top>h2 {
+    position: absolute;
+    font-family: "HarryPotter";
+    left: 260px;
+    font-size: 50px;
+    bottom: -40px;
+}
+
+
+.Try_Again {
+    position: absolute;
+    top: 380px;
+    right: 400px;
+    width: 10%;
+    height: 50px;
+    background-color: #000000;
+    border: 2px solid #000000;
+    text-align: center;
+    line-height: 50px;
+}
+
+.Try_Again>h3 {
+    position: absolute;
+    bottom: -40px;
+    left: 30px;
+    color: rgb(255, 255, 255);
+    font-family: "HarryPotter";
+    font-size: 40px;
+}
+
+.Quit {
+    position: absolute;
+    top: 580px;
+    right: 400px;
+    width: 10%;
+    height: 50px;
+    background-color: #000000;
+    border: 2px solid #000000;
+    text-align: center;
+    line-height: 50px;
+}
+
+.Quit>h3 {
+    position: absolute;
+    bottom: -40px;
+    left: 70px;
+    color: rgb(255, 255, 255);
+    font-family: "HarryPotter";
+    font-size: 40px;
+}
+
+.banner_right {
+    position: absolute;
+    top: 90px;
+    right: 0px;
+}
