@@ -12,6 +12,7 @@ const correctAnswer = document.querySelector("#correct-answer");
 const extraInfo = document.querySelector("#extra-info");
 const nextQuestion = document.querySelector(".back button");
 const progressBarEl = document.querySelector("#progress-bar");
+const progressBarImage = document.querySelector("#broomstick-circle");
 
 let i = 0;
 let j = 0;
@@ -121,6 +122,8 @@ const progressBar = () => {
   } else {
     j += 10;
     progressBarEl.style.width = j + "%";
+
+    progressBarImage.style.left = j - 1 + "%";
   }
 };
 
