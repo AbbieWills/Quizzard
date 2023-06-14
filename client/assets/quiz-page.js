@@ -45,6 +45,7 @@ logJSONDataSlytherin();
 
 //CHECKS THAT THE ANSWER GIVEN IS CORRECT
 const checkAnswer = (e) => {
+  nextQuestion.disabled = false;
   if (e.target.id === "answer-one" && questionsArray[0][i].correct == 0) {
     completesCheckAnswer(e, 0);
     progressBar();
@@ -75,6 +76,7 @@ const checkAnswer = (e) => {
 
 //STYLES THE ANSWERS IF CORRECT
 const completesCheckAnswer = (e, number) => {
+  e.target.disabled = true;
   e.target.style.backgroundColor = "green";
   e.target.style.color = "white";
   backCardSetter(number);
@@ -87,6 +89,9 @@ const flipCard = () => {
 
 //FUNCTION THAT FLIPS THE CARD AND THEN SETS THE TEXT
 const backCardSetter = (number) => {
+  if (i === 9) {
+    nextQuestion.textContent = "Results";
+  }
   let pointScore = 0;
   card.addEventListener("click", flipCard);
   setTimeout(() => card.removeEventListener("click", flipCard), 100);
@@ -132,6 +137,9 @@ const moveToNextQuestion = () => {
   if (i < 9) {
     i += 1;
     for (let button of buttonList) {
+      if (button.disabled === true) {
+        button.disabled = false;
+      }
       button.style.backgroundColor = "#ccc";
       button.style.color = "black";
     }
@@ -140,10 +148,11 @@ const moveToNextQuestion = () => {
     answerTwo.textContent = questionsArray[0][i].answers.second;
     answerThree.textContent = questionsArray[0][i].answers.third;
     answerFour.textContent = questionsArray[0][i].answers.fourth;
+    tryAgain.textContent = "Click an answer!";
     card.classList.toggle("flipCard");
+    nextQuestion.disabled = true;
   } else {
     //HERE IS WHERE THE FINAL PAGE WILL GO
-    console.log("Hi");
   }
 };
 
