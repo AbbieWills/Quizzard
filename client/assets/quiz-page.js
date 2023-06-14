@@ -11,8 +11,10 @@ const correctQuestion = document.querySelector("#correct-question");
 const correctAnswer = document.querySelector("#correct-answer");
 const extraInfo = document.querySelector("#extra-info");
 const nextQuestion = document.querySelector(".back button");
+const progressBarEl = document.querySelector("#progress-bar");
 
 let i = 0;
+let j = 0;
 let runningScore = 0;
 
 let questionsArray = [];
@@ -44,21 +46,25 @@ logJSONDataSlytherin();
 const checkAnswer = (e) => {
   if (e.target.id === "answer-one" && questionsArray[0][i].correct == 0) {
     completesCheckAnswer(e, 0);
+    progressBar();
   } else if (
     e.target.id === "answer-two" &&
     questionsArray[0][i].correct == 1
   ) {
     completesCheckAnswer(e, 1);
+    progressBar();
   } else if (
     e.target.id === "answer-three" &&
     questionsArray[0][i].correct == 2
   ) {
     completesCheckAnswer(e, 2);
+    progressBar();
   } else if (
     e.target.id === "answer-four" &&
     questionsArray[0][i].correct == 3
   ) {
     completesCheckAnswer(e, 3);
+    progressBar();
   } else {
     tryAgain.textContent = "That's incorrect- Try again";
     e.target.style.backgroundColor = "red";
@@ -92,6 +98,7 @@ const backCardSetter = (number) => {
     }
   });
   scoreSetter(pointScore);
+  setTimeout(() => (score.textContent = `Score: ${runningScore}`), 100);
 };
 
 //USED TO DETERMINE THE POINTS SCORED PER QUESTION
@@ -107,9 +114,18 @@ const scoreSetter = (score) => {
   }
 };
 
+//PROGRESS BAR FUNCTION
+const progressBar = () => {
+  if (j === 100) {
+    null;
+  } else {
+    j += 10;
+    progressBarEl.style.width = j + "%";
+  }
+};
+
 //RESETS ALL THE ELEMENTS AND REPLACES THE QUESTION WITH THE NEXT ONE
 const moveToNextQuestion = () => {
-  score.textContent = `Score: ${runningScore}`;
   if (i < 9) {
     i += 1;
     for (let button of buttonList) {
