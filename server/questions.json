@@ -111,7 +111,7 @@
       "first": "Singing in unison",
       "second": "No singing",
       "third": "Singing unaccompanied",
-      "fourth": "Singing with an accopaniment"
+      "fourth": "Singing with an accompaniment"
     },
     "correct": 2,
     "info": "A cappella music is a performance by a singer or a singing group without instrumental accompaniment. In addition to singing words, some a cappella singers also emulate instrumentation by reproducing instrumental sounds with their vocal cords and mouth, often pitched using specialised pitch pipes."
@@ -141,19 +141,6 @@
     },
     "correct": 1,
     "info": "The bass guitar, electric bass or simply bass is the lowest-pitched member of the guitar family. It is a plucked string instrument similar in appearance and construction to an electric or acoustic guitar, but with a longer neck and scale length, and typically four strings. The four-string bass guitar is usually tuned the same as the double bass, which corresponds to pitches one octave lower than the four lowest-pitched strings of a guitar (typically E, A, D, and G). It is played primarily with the fingers or thumb, or with a pick."
-  },
-  {
-    "id": 11,
-    "category": "ravenclaw",
-    "question": "Which of these best characterises 'atonal' music?",
-    "answers": {
-      "first": "Music with one key",
-      "second": "Music that isn't part of a genre",
-      "third": "Music that has two keys",
-      "fourth": "Music without a key"
-    },
-    "correct": 3,
-    "info": "Atonality in its broadest sense is music that lacks a tonal center, or key. Atonality, in this sense, usually describes compositions written from about the early 20th-century to the present day, where a hierarchy of harmonies focusing on a single, central triad is not used, and the notes of the chromatic scale function independently of one another. Late 19th- and early 20th-century composers such as Alexander Scriabin, Claude Debussy, Béla Bartók, Paul Hindemith, Sergei Prokofiev, Igor Stravinsky, and Edgard Varèse have written music that has been described, in full or in part, as atonal."
   },
   {
     "id": 12,
@@ -205,7 +192,7 @@
       "fourth": "Renaissance"
     },
     "correct": 2,
-    "info": "Romantic music is a stylistic movement in Western Classical music associated with the period of the 19th century commonly referred to as the Romantic era (or Romantic period). The Romantic period tended to make greater use of longer, more fully defined and more emotionally evocative themes."
+    "info": "Romantic music is a stylistic movement in Western Classical music associated with the period of the 19th Century commonly referred to as the Romantic era (or Romantic period). The Romantic period tended to make greater use of longer, more fully defined and more emotionally evocative themes."
   },
   {
     "id": 16,
@@ -218,12 +205,12 @@
       "fourth": "A painting done mostly or entirely in shades of brown"
     },
     "correct": 3,
-    "info": "Brunaille has its origins in 12th century stained glass made for Cistercian monasteries"
+    "info": "Brunaille has its origins in 12th Century stained glass made for Cistercian monasteries"
   },
   {
     "id": 17,
     "category": "Slytherin",
-    "question": "who painted the picture the stray night",
+    "question": "Who painted the picture the Starry Night",
     "answers": {
       "first": "Leonardo da Vinci",
       "second": "Vincent van Gogh",
@@ -680,7 +667,7 @@
     "category": "gryffindor",
     "question": "Who is the author of the Harry Potter book series?",
     "answers": {
-      "first": "C.S. Lewi.",
+      "first": "C.S. Lewis.",
       "second": "J.K. Rowling.",
       "third": "J.R.R. Tolkien.",
       "fourth": "George R. R. Martin"
@@ -720,7 +707,7 @@
     "question": "Who says the following quote? Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real?",
     "answers": {
       "first": "Albus Dumbledore",
-      "second": "Hermionie Granger",
+      "second": "Hermione Granger",
       "third": "Sirius Black",
       "fourth": "Remus Lupin"
     },
@@ -760,7 +747,7 @@
     "answers": {
       "first": "Hospital",
       "second": "Graveyard",
-      "third": "Libary",
+      "third": "Library",
       "fourth": "Online"
     },
     "correct": 1,
@@ -790,6 +777,6 @@
       "fourth": "12"
     },
     "correct": 3,
-    "info": "Harry Potter and the Philosopher's Stone was rejected 12 times before it was accepted by Bloomsbury. Even in the past, Bloomsbury rejected it but was eventually accepted by Bloomsbury atter the chairmans 8-year-old daughter took an interest in it"
+    "info": "Harry Potter and the Philosopher's Stone was rejected 12 times before it was accepted by Bloomsbury. Even in the past, Bloomsbury rejected it but was eventually accepted by Bloomsbury after the chairmans 8-year-old daughter took an interest in it"
   }
 ]
