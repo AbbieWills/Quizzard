@@ -13,6 +13,13 @@ const extraInfo = document.querySelector("#extra-info");
 const nextQuestion = document.querySelector(".back button");
 const progressBarEl = document.querySelector("#progress-bar");
 const progressBarImage = document.querySelector("#broomstick-circle");
+const holdingContainer = document.querySelector(".holding-container");
+const secondHoldingContainer = document.querySelector(
+  ".second-holding-container"
+);
+const congratulationsText = document.querySelector(".top h2");
+const tryAgainButton = document.querySelector("#try-again-button");
+const quitButton = document.querySelector("#quit-button");
 
 let i = 0;
 let j = 0;
@@ -152,7 +159,10 @@ const moveToNextQuestion = () => {
     card.classList.toggle("flipCard");
     nextQuestion.disabled = true;
   } else {
-    //HERE IS WHERE THE FINAL PAGE WILL GO
+    holdingContainer.style.display = "none";
+    secondHoldingContainer.style.display = "flex";
+    score.textContent = "Ambitious, cunning, and resourceful";
+    congratulationsText.textContent = `Congratulations for scoring ${runningScore} points; you are A QUIZZARD`;
   }
 };
 
@@ -163,3 +173,17 @@ nextQuestion.addEventListener("click", moveToNextQuestion);
 for (let button of buttonList) {
   button.addEventListener("click", checkAnswer);
 }
+
+//RESTARTS QUIZ
+const restartQuiz = () => {
+  location.reload();
+};
+
+//QUITS AND TAKES YOU TO HOMEPAGE
+const quitQuiz = () => {
+  //link to homepage
+};
+
+//EVENT LISTENERS FOR TRY AGAIN AND QUIT
+tryAgainButton.addEventListener("click", restartQuiz);
+quitButton.addEventListener("click", quitQuiz);
