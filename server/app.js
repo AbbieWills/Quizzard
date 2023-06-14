@@ -21,6 +21,14 @@ const filter = (filterWord) => {
   return questions.filter((type) => type.category === filterWord);
 };
 
+const tenQuestions = (arr) => {
+  let newArr = [];
+  for (let i = 0; i < 10; i++) {
+    newArr.push(arr[i]);
+  }
+  return newArr;
+};
+
 //API homepage
 app.get("/", function (req, res) {
   res.send(
@@ -37,28 +45,32 @@ app.get("/questions", function (req, res) {
 app.get("/ravenclaw", function (req, res) {
   let filteredQuestions = filter("ravenclaw");
   let result = randomFunc(filteredQuestions);
-  res.status(200).send(result);
+  let finalResult = tenQuestions(result);
+  res.status(200).send(finalResult);
 });
 
 //10 gryffindor questions
 app.get("/gryffindor", function (req, res) {
   let filteredQuestions = filter("gryffindor");
   let result = randomFunc(filteredQuestions);
-  res.status(200).send(result);
+  let finalResult = tenQuestions(result);
+  res.status(200).send(finalResult);
 });
 
 //10 hufflepuff questions
 app.get("/hufflepuff", function (req, res) {
   let filteredQuestions = filter("Hufflepuff");
   let result = randomFunc(filteredQuestions);
-  res.res.status(200).send(result);
+  let finalResult = tenQuestions(result);
+  res.status(200).send(finalResult);
 });
 
 //10 slytherin questions
 app.get("/slytherin", function (req, res) {
-  let filteredQuestions = filter("slytherin");
+  let filteredQuestions = filter("Slytherin");
   let result = randomFunc(filteredQuestions);
-  res.res.status(200).send(result);
+  let finalResult = tenQuestions(result);
+  res.status(200).send(finalResult);
 });
 
 module.exports = app;
