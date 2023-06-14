@@ -1,216 +1,332 @@
 @font-face {
-    font-family: "HarryPotter";
-    src: url("/client/assets/HARRYP__.TTF") format("truetype");
+  font-family: "HarryPotter";
+  src: url("../../fonts/HARRYP__.TTF") format("truetype");
+}
+/* Title color for new anchor tag when house photo is clicked */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  font-family: "HarryPotter", sans-serif;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+button {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.nav {
+  height: 90px;
+  /*changing the nav color*/
+  background-color: #efbc2f;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 90px;
+  width: 100%;
+  /*changing the footer color*/
+  background-color: #efbc2f;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.nav-home {
+  flex: 0.05;
+  margin-left: 20px;
+}
+
+.nav-home img {
+  height: 72px;
+  width: 88px;
+}
+
+.nav-header {
+  flex: 0.95;
+  text-align: center;
+}
+
+.nav-empty-crest {
+  flex: 0.05;
+}
+
+.nav-empty-crest img {
+  height: 72px;
+  width: 88px;
+  margin-right: 20px;
+}
+
+@media (max-width: 750px) {
+  .nav h1,
+  .footer h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 680px) {
+  .nav h1,
+  .footer h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 490px) {
+  .nav h1,
+  .footer h1 {
+    font-size: 30px;
   }
 
-  /* Title color for new anchor tag when house photo is clicked */
-  a {
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  h1 {
-    font-family: "HarryPotter", sans-serif;
-    font-size: 60px;
-  }
-  
-  h2 {
-    font-family: sans-serif;
-  }
-  
-  p {
-    font-family: sans-serif;
-  }
-  
-  button {
-    font-family: sans-serif;
-    font-size: 20px;
-  }
-  
-  body {
-    height: 100vh;
-    margin: 0;
-  }
-  
-  .nav {
-    height: 90px;
-    /*changing the nav color*/
-    background-color: #EFBC2F;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 90px;
-    width: 100%;
-    /*changing the footer color*/
-    background-color: #EFBC2F;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: center;
-  }
-  .nav-home {
-    flex: 0.05;
-    margin-left: 20px;
-  }
-  
-  .nav-home img {
-    height: 72px;
-    width: 88px;
-  }
-  
-  .nav-header {
-    flex: 0.95;
-    text-align: center;
-  }
-  
-  .nav-empty-crest {
-    flex: 0.05;
-  }
-  
   .nav-empty-crest img {
-    height: 72px;
-    width: 88px;
-    margin-right: 20px;
+    display: none;
   }
-  
-  @media (max-width: 750px) {
-    .nav h1,
-    .footer h1 {
-      font-size: 50px;
-    }
-  }
-  
-  @media (max-width: 680px) {
-    .nav h1,
-    .footer h1 {
-      font-size: 40px;
-    }
-  }
-  @media (max-width: 490px) {
-    .nav h1,
-    .footer h1 {
-      font-size: 30px;
-    }
-  
-    .nav-empty-crest img {
-      display: none;
-    }
-  }
-  
-  .holding-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 70px 0 70px 0;
-    background-color: #ccc;
-  }
-  
-  .main-container {
-    width: 500px;
-    height: calc(100vh - 320px);
-    background: none;
-  }
-  
-  .card {
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: all 0.8s ease;
-  }
-  
-  .front {
-    position: absolute;
-    width: 100%;
-    border-radius: 10px;
-    height: 100%;
-    backface-visibility: hidden;
-    /*card front color*/
-    background: #EFBC2F;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .front h2 {
-    padding: 10px 20px 0 20px;
-    flex: 0.1;
-  }
-  
-  #answer-one,
-  #answer-two,
-  #answer-three,
-  #answer-four {
-    flex: 0.2;
-    margin: 5px 0 0 0;
-    background-color: #ccc;
-    color: black;
-    width: 70%;
-    border: none;
-  }
-  
-  .incorrect-text {
-    padding: 5px 10px 5px 10px;
-  }
-  
-  .back {
-    position: absolute;
-    width: 100%;
-    border-radius: 10px;
-    height: 100%;
-    backface-visibility: hidden;
-    /*card back color*/
-    background: #EFBC2F;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transform: rotateY(180deg);
-  }
-  
-  #correct-text {
-    flex: 0.05;
-    padding-top: 5px;
-  }
-  
-  #correct-question {
-    flex: 0.05;
-    padding: 5px 20px 5px 20px;
-  }
-  
-  #correct-answer {
-    flex: 0.05;
-    padding: 5px 20px 5px 20px;
-  }
-  
-  #extra-info {
-    flex: 0.7;
-    padding: 20px;
-    font-style: italic;
-  }
-  
-  .back button {
-    flex: 0.1;
-    width: 40%;
-    padding: 16px;
-    margin: 10px 0 20px 0;
-    font-size: 30px;
-    font-family: "HarryPotter", sans-serif;
-  }
-  
-  .flipCard {
-    transform: rotateY(180deg);
-  }
-  
+}
+
+.holding-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0 60px 0;
+  background-color: #ccc;
+}
+
+.main-container {
+  width: 500px;
+  height: calc(100vh - 320px);
+  background: none;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+.front {
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+  backface-visibility: hidden;
+  /*card front color*/
+  background: #efbc2f;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.front h2 {
+  padding: 10px 20px 0 20px;
+  flex: 0.1;
+}
+
+#answer-one,
+#answer-two,
+#answer-three,
+#answer-four {
+  flex: 0.2;
+  margin: 5px 0 0 0;
+  background-color: #ccc;
+  color: black;
+  width: 70%;
+  border: none;
+}
+
+.incorrect-text {
+  padding: 5px 10px 5px 10px;
+}
+
+.back {
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+  backface-visibility: hidden;
+  /*card back color*/
+  background: #efbc2f;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(180deg);
+}
+
+#correct-text {
+  flex: 0.05;
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+
+#correct-question {
+  flex: 0.05;
+  padding: 5px 20px 5px 20px;
+}
+
+#correct-answer {
+  flex: 0.05;
+  padding: 5px 20px 5px 20px;
+}
+
+#extra-info {
+  flex: 0.7;
+  padding: 20px 20px 10px 20px;
+  font-style: italic;
+  margin: 0;
+}
+
+.back button {
+  flex: 0.1;
+  width: 40%;
+  padding: 16px;
+  margin: 10px 0 20px 0;
+  font-size: 30px;
+  font-family: "HarryPotter", sans-serif;
+}
+
+.flipCard {
+  transform: rotateY(180deg);
+}
+
+#progress-bar-container {
+  width: 100%;
+  height: 20px;
+  position: relative;
+  background-color: #aaa;
+}
+
+#broomstick-circle {
+  background-color: white;
+  height: 70px;
+  width: 70px;
+  border-radius: 70px;
+  transition: left 3s ease;
+  left: 0%;
+  bottom: -24px;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#progress-bar-container img {
+  width: 55px;
+  height: 65px;
+  transition: left 3s ease;
+  left: 0%;
+  bottom: -30px;
+  z-index: 100;
+}
+
+#progress-bar {
+  width: 0%;
+  height: 20px;
+  transition: width 3s ease;
+  background-image: url("../../images/Starry.jpg");
+}
+
+.holding-container {
+  display: flex;
+}
+
+.second-holding-container {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.results-container {
+  height: calc(100vh - 200px);
+  display: flex;
+  width: 70%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top {
+  width: 100%;
+  flex: 0.1;
+  background-color: #efbc2f;
+  color: white;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  text-align: center;
+  font-family: "HarryPotter";
+}
+
+.middle {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  flex: 0.7;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  box-shadow: 10px 10px 5px #efbc2f;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+}
+
+.final-image {
+  flex: 0.9;
+  max-height: 330px;
+  max-width: 465px;
+  padding: 20px;
+}
+
+.button-containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0.1;
+}
+
+.button-containers button {
+  margin: 20px;
+  width: 150px;
+  padding: 16px;
+  font-family: "HarryPotter";
+  font-size: 30px;
+}
+
+.top > h2 {
+  font-family: "HarryPotter";
+  font-size: 40px;
+  padding: 5px 10px 5px 10px;
+}

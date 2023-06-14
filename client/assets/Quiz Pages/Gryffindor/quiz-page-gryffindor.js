@@ -20,6 +20,7 @@ const secondHoldingContainer = document.querySelector(
 const congratulationsText = document.querySelector(".top h2");
 const tryAgainButton = document.querySelector("#try-again-button");
 const quitButton = document.querySelector("#quit-button");
+const finalImage = document.querySelector(".final-image");
 
 let i = 0;
 let j = 0;
@@ -30,7 +31,7 @@ let questionsArray = [];
 //GRAB THE CORRECT QUESTIONS
 const logJSONDataSlytherin = async () => {
   try {
-    const response = await fetch("http://localhost:3000/Slytherin");
+    const response = await fetch("http://localhost:3000/gryffindor");
     if (response.ok) {
       const data = await response.json();
       questionsArray.push(data);
@@ -161,8 +162,17 @@ const moveToNextQuestion = () => {
   } else {
     holdingContainer.style.display = "none";
     secondHoldingContainer.style.display = "flex";
-    score.textContent = "Ambitious, cunning, and resourceful";
-    congratulationsText.textContent = `Congratulations for scoring ${runningScore} points; you are A QUIZZARD`;
+    score.textContent = "Courageous and daring";
+    if (runningScore > 39) {
+      finalImage.src = "../../images/harry-potter-sorcerers-stone.gif";
+      congratulationsText.textContent = `Congratulations for scoring ${runningScore} points; you are A QUIZZARD!`;
+    } else if (runningScore > 29) {
+      finalImage.src = "../../images/draco.gif";
+      congratulationsText.textContent = `You scored ${runningScore} points; Draco claims you're a mudblood!`;
+    } else {
+      finalImage.src = "../../images/movie-fantasy.gif";
+      congratulationsText.textContent = `You scored ${runningScore} points; must be a muggle!`;
+    }
   }
 };
 
