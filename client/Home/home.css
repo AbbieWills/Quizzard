@@ -113,10 +113,26 @@ p {
   }
 }
 
-/* House images */
+/* Padding for bottom of house photos in response to screen sizes */
+@media (max-width: 992px) {
 .img-fluid {
+  padding: 20px;
+}
+.bottom-photos {
+  padding-bottom: 80px;
+}
+.huffle {
+  max-width: 480px;
+  margin-bottom: -80px;
+}
+}
+
+/* House images */
+@media (min-width: 993px) {
+  .img-fluid {
   padding: 10px 10px 100px 50px;
   max-width: 90%;
+}
 }
 
 /* Footer */
