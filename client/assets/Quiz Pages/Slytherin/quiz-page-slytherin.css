@@ -9,20 +9,20 @@ a {
 }
 
 h1 {
-  font-family: "HarryPotter", sans-serif;
+  font-family: "HarryPotter", "Inter";
   font-size: 60px;
 }
 
 h2 {
-  font-family: sans-serif;
+  font-family: "Inter";
 }
 
 p {
-  font-family: sans-serif;
+  font-family: "Inter";
 }
 
 button {
-  font-family: sans-serif;
+  font-family: "Inter";
   font-size: 20px;
 }
 
@@ -110,7 +110,6 @@ body {
   align-items: center;
   justify-content: center;
   padding: 60px 0 60px 0;
-  background-color: #ccc;
 }
 
 .main-container {
@@ -212,7 +211,7 @@ body {
   margin: 10px 0 20px 0;
   border-radius: 15px;
   font-size: 30px;
-  font-family: "HarryPotter", sans-serif;
+  font-family: "HarryPotter", "Inter";
 }
 
 .back button:hover {
