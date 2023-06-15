@@ -58,8 +58,13 @@ p {
   font-family: "HarryPotter", sans-serif;
   font-size: 30px;
   padding: 16px;
-  border-radius: 10px;
+  border-radius: 15px;
+  background-color: #ddd;
   text-align: center;
+}
+
+.error-button:hover {
+  background-color: #ccc;
 }
 
 @media (max-width: 830px) {

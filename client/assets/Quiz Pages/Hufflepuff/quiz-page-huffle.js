@@ -77,7 +77,7 @@ const checkAnswer = (e) => {
     progressBar();
   } else {
     tryAgain.textContent = "That's incorrect- Try again";
-    e.target.style.backgroundColor = "red";
+    e.target.style.backgroundColor = "#d97873";
     e.target.style.color = "white";
   }
 };
@@ -85,7 +85,7 @@ const checkAnswer = (e) => {
 //STYLES THE ANSWERS IF CORRECT
 const completesCheckAnswer = (e, number) => {
   e.target.disabled = true;
-  e.target.style.backgroundColor = "green";
+  e.target.style.backgroundColor = "#6aaf83 ";
   e.target.style.color = "white";
   backCardSetter(number);
 };
@@ -107,7 +107,7 @@ const backCardSetter = (number) => {
   correctQuestion.textContent = questionsArray[0][i].question;
   extraInfo.textContent = questionsArray[0][i].info;
   buttonList.forEach((element) => {
-    if (element.style.backgroundColor == "red") {
+    if (element.style.backgroundColor == "rgb(217, 120, 115)") {
       pointScore += 1;
     }
   });
