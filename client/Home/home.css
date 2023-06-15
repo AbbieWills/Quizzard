@@ -31,8 +31,9 @@ h1 {
 }
 
 .nav-home img {
-  height: 100px;
-  width: 100px;
+  height: 95px;
+  width: 95px;
+  margin-top: 4px;
   padding-bottom: 15px;
 }
 
@@ -46,8 +47,9 @@ h1 {
 }
 
 .nav-empty-crest img {
-  height: 100px;
-  width: 100px;
+  height: 95px;
+  width: 95px;
+  margin-top: 4px;
   margin-right: 20px;
   padding-bottom: 15px;
 }
@@ -128,7 +130,6 @@ p {
   }
   .final-photo {
     padding-bottom: 120px;
-
   }
 }
 
@@ -136,12 +137,12 @@ p {
   .img-fluid {
     padding: 10px 40px 10px 40px;
   }
-  .bottom-photos{
+  .bottom-photos {
     padding-bottom: 110px;
   }
-  }
+}
 
-  @media (min-width: 992px) {
+@media (min-width: 992px) {
   .img-fluid {
     padding: 10px 30px 115px 30px;
     max-width: 93%;
@@ -149,7 +150,7 @@ p {
   .row {
     padding-left: 40px;
   }
-  }
+}
 
 /* Footer */
 .footer {

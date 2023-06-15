@@ -8,20 +8,20 @@
 }
 
 h1 {
-  font-family: "HarryPotter", sans-serif;
+  font-family: "HarryPotter", "Inter";
   font-size: 60px;
 }
 
 h2 {
-  font-family: sans-serif;
+  font-family: "Inter";
 }
 
 p {
-  font-family: sans-serif;
+  font-family: "Inter";
 }
 
 button {
-  font-family: sans-serif;
+  font-family: "Inter";
   font-size: 20px;
 }
 
@@ -60,8 +60,8 @@ body {
 }
 
 .nav-home img {
-  height: 85px;
-  width: 85px;
+  height: 80px;
+  width: 80px;
 }
 
 .nav-header {
@@ -74,8 +74,8 @@ body {
 }
 
 .nav-empty-crest img {
-  height: 85px;
-  width: 85px;
+  height: 80px;
+  width: 80px;
   margin-right: 20px;
 }
 
@@ -153,6 +153,7 @@ body {
   flex: 0.2;
   margin: 5px 0 0 0;
   background-color: #ccc;
+  border-radius: 15px;
   color: black;
   width: 70%;
   border: none;
@@ -206,9 +207,15 @@ body {
   flex: 0.1;
   width: 40%;
   padding: 16px;
+  background-color: #ddd;
   margin: 10px 0 20px 0;
+  border-radius: 15px;
   font-size: 30px;
-  font-family: "HarryPotter", sans-serif;
+  font-family: "HarryPotter", "Inter";
+}
+
+.back button:hover {
+  background-color: #ccc;
 }
 
 .flipCard {
@@ -252,10 +259,6 @@ body {
   height: 20px;
   transition: width 3s ease;
   background-image: url("../../images/Starry.jpg");
-}
-
-.holding-container {
-  display: flex;
 }
 
 .second-holding-container {
@@ -329,4 +332,15 @@ body {
   font-family: "HarryPotter";
   font-size: 40px;
   padding: 5px 10px 5px 10px;
+}
+
+#try-again-button,
+#quit-button {
+  background-color: #ddd;
+  border-radius: 15px;
+}
+
+#try-again-button:hover,
+#quit-button:hover {
+  background-color: #ccc;
 }
