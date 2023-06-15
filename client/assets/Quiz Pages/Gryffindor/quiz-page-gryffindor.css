@@ -135,42 +135,40 @@ body {
   }
 }
 
-@media (max-width: 670px) {
-  .top {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .middle {
-    flex-direction: column;
-  }
-
-  .middle .final-image {
-    max-height: 250px;
-    max-width: 600px;
-  }
-
-  .middle .button-containers button {
-    width: 100px;
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 550px) {
-  .middle .final-image {
-    max-height: 250px;
-    max-width: 420px;
-    position: fixed;
-    top: 53%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
-
 @media (max-width: 490px) {
   .nav h1,
   .footer h1 {
     font-size: 30px;
+  }
+
+  #congrats {
+    font-size: 30px;
+  }
+
+  #correct-text {
+    font-size: 35px;
+  }
+
+  #correct-question,
+  #correct-answer {
+    font-size: 14px;
+    padding: 0 5px 0 5px;
+  }
+
+  #next-question {
+    flex: 0.015;
+    width: 50%;
+    font-size: 20px;
+  }
+
+  #extra-info {
+    font-size: 12px;
+  }
+
+  #try-again-button,
+  #quit-button {
+    width: 100px;
+    font-size: 20px;
   }
 
   .nav-empty-crest img {
