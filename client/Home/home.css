@@ -131,6 +131,12 @@ p {
 }
 }
 
+@media (min-width: 766px) and (max-width: 989px){
+.bottom-photos {
+  padding-bottom: 35px;
+}
+}
+
 /* House images */
 @media (min-width: 993px) {
   .img-fluid {
