@@ -31,7 +31,7 @@ let questionsArray = [];
 //GRAB THE CORRECT QUESTIONS
 const logJSONDataSlytherin = async () => {
   try {
-    const response = await fetch("http://localhost:3000/gryffindor");
+    const response = await fetch("http://localhost:3000/api/gryffindor");
     if (response.ok) {
       const data = await response.json();
       questionsArray.push(data);
@@ -191,9 +191,17 @@ const restartQuiz = () => {
 
 //QUITS AND TAKES YOU TO HOMEPAGE
 const quitQuiz = () => {
-  //link to homepage
+  location.href = "http://localhost:3000/";
 };
 
 //EVENT LISTENERS FOR TRY AGAIN AND QUIT
 tryAgainButton.addEventListener("click", restartQuiz);
 quitButton.addEventListener("click", quitQuiz);
+
+//ALERT FOR USER TO SAY THAT THE QUIZ WILL BE LOST
+window.addEventListener("beforeunload", function (e) {
+  var confirmationMessage = "o/";
+
+  (e || window.event).returnValue = confirmationMessage;
+  return confirmationMessage;
+});

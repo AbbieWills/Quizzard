@@ -64,8 +64,8 @@ body {
 }
 
 .nav-home img {
-  height: 72px;
-  width: 88px;
+  height: 85px;
+  width: 85px;
 }
 
 .nav-header {
@@ -78,8 +78,8 @@ body {
 }
 
 .nav-empty-crest img {
-  height: 72px;
-  width: 88px;
+  height: 85px;
+  width: 85px;
   margin-right: 20px;
 }
 
@@ -346,6 +346,7 @@ body {
 
 #broomstick-circle {
   background-color: white;
+  border: 2px black solid;
   height: 70px;
   width: 70px;
   border-radius: 70px;

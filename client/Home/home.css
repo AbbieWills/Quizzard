@@ -1,141 +1,161 @@
 /* Harry Potter Font */
 @font-face {
-    font-family: "HarryPotter";
-    src: url(/client/assets/HARRYP__.TTF) format("truetype");
-  }
+  font-family: "HarryPotter";
+  src: url(fonts/HARRYP__.TTF) format("truetype");
+}
+
+body {
+  overflow-x: hidden;
+}
 
 /* Heading */
-  h1 {
-    font-family: "HarryPotter";
-    font-size: 60px;
-  }
-  
+h1 {
+  font-family: "HarryPotter";
+  font-size: 60px;
+}
+
 /* Navbar */
-  .nav {
-    height: 90px;
-    transition: background-color 0.3s ease;
-    /*changing the nav color*/
-    background-color: #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.nav {
+  height: 90px;
+  transition: background-color 0.3s ease;
+  /*changing the nav color*/
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-home {
+  flex: 0.05;
+  margin-left: 20px;
+}
+
+.nav-home img {
+  height: 100px;
+  width: 100px;
+  padding-bottom: 15px;
+}
+
+.nav-header {
+  flex: 0.95;
+  text-align: center;
+}
+
+.nav-empty-crest {
+  flex: 0.05;
+}
+
+.nav-empty-crest img {
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+  padding-bottom: 15px;
+}
+
+/* Heading font size changes in response to screen size  */
+@media (max-width: 750px) {
+  h1 {
+    font-size: 50px;
   }
-  
-  
-  .nav-home {
-    flex: 0.05;
-    margin-left: 20px;
+}
+
+@media (max-width: 680px) {
+  h1 {
+    font-size: 40px;
   }
-  
-  .nav-home img {
-    height: 110px;
-    width: 110px;
-    padding-bottom: 10px;
-  }
-  
-  .nav-header {
-    flex: 0.95;
-    text-align: center;
-  }
-  
-  .nav-empty-crest {
-    flex: 0.05;
-  }
-  
-  .nav-empty-crest img {
-    height: 110px;
-    width: 110px;
-    margin-right: 20px;
-    padding-bottom: 10px;
+}
+@media (max-width: 490px) {
+  h1 {
+    font-size: 30px;
   }
 
-  
-/* Heading font size changes in response to screen size  */
-  @media (max-width: 750px) {
-    h1 {
-      font-size: 50px;
-    }
+  .nav-empty-crest img {
+    display: none;
   }
-  
-  @media (max-width: 680px) {
-    h1 {
-      font-size: 40px;
-    }
-  }
-  @media (max-width: 490px) {
-    h1 {
-      font-size: 30px;
-    }
-  
-    .nav-empty-crest img {
-      display: none;
-    }
-  }
+}
 
 /* Main background */
- body {
-    background-color: #dde6ed
- }
+body {
+  background-color: #dde6ed;
+}
 
- /* Font size for Choose Your House changes in response to screen size */
-  @media (max-width: 4000px) {
-    .choose-house {
-      font-size: 50px;
-    }
+/* Font size for Choose Your House changes in response to screen size */
+@media (max-width: 4000px) {
+  .choose-house {
+    font-size: 50px;
   }
+}
 
-  @media (max-width: 500px) {
-    .choose-house {
-      font-size: 30px; 
-    }
+@media (max-width: 500px) {
+  .choose-house {
+    font-size: 30px;
   }
+}
 
 /* Choose your house font */
-  .choose-house {
-    font-family: 'HarryPotter';
-    padding-top: 20px;
-    text-align: center;
- }
+.choose-house {
+  font-family: "HarryPotter";
+  padding-top: 20px;
+  text-align: center;
+}
 
 /* Subjects */
 p {
-    font-family: HarryPotter;
-    text-align: center;
+  font-family: HarryPotter;
+  text-align: center;
 }
 
 @media (max-width: 4000px) {
-    p {
-      font-size: 40px; 
-    }
+  p {
+    font-size: 40px;
   }
+}
 
-  @media (max-width: 500px) {
-    p {
-      font-size: 30px; 
-    }
+@media (max-width: 500px) {
+  p {
+    font-size: 30px;
   }
+}
 
+/* Padding for bottom of house photos in response to screen sizes */
+@media (max-width: 992px) {
+.img-fluid {
+  padding: 20px;
+}
+.bottom-photos {
+  padding-bottom: 80px;
+}
+.huffle {
+  max-width: 480px;
+  margin-bottom: -80px;
+}
+}
+
+@media (min-width: 766px) and (max-width: 989px){
+.bottom-photos {
+  padding-bottom: 35px;
+}
+}
 
 /* House images */
-.img-fluid {
-    padding: 10px 10px 100px 50px;
-    max-width: 90%;
- }
+@media (min-width: 993px) {
+  .img-fluid {
+  padding: 10px 10px 100px 50px;
+  max-width: 90%;
+}
+}
 
- /* Footer */
- .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 90px;
-    width: 100%;
-    background-color: #ccc;
-    display: flex;
-    color: black;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s ease;
-  }
-
-
-
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 90px;
+  width: 100%;
+  background-color: #ccc;
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
