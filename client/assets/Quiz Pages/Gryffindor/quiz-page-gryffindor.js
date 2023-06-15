@@ -13,6 +13,14 @@ const extraInfo = document.querySelector("#extra-info");
 const nextQuestion = document.querySelector(".back button");
 const progressBarEl = document.querySelector("#progress-bar");
 const progressBarImage = document.querySelector("#broomstick-circle");
+const holdingContainer = document.querySelector(".holding-container");
+const secondHoldingContainer = document.querySelector(
+  ".second-holding-container"
+);
+const congratulationsText = document.querySelector(".top h2");
+const tryAgainButton = document.querySelector("#try-again-button");
+const quitButton = document.querySelector("#quit-button");
+const finalImage = document.querySelector(".final-image");
 
 let i = 0;
 let j = 0;
@@ -23,7 +31,7 @@ let questionsArray = [];
 //GRAB THE CORRECT QUESTIONS
 const logJSONDataSlytherin = async () => {
   try {
-    const response = await fetch("http://localhost:3000/Slytherin");
+    const response = await fetch("http://localhost:3000/gryffindor");
     if (response.ok) {
       const data = await response.json();
       questionsArray.push(data);
@@ -152,7 +160,19 @@ const moveToNextQuestion = () => {
     card.classList.toggle("flipCard");
     nextQuestion.disabled = true;
   } else {
-    //HERE IS WHERE THE FINAL PAGE WILL GO
+    holdingContainer.style.display = "none";
+    secondHoldingContainer.style.display = "flex";
+    score.textContent = "Courageous and daring";
+    if (runningScore > 39) {
+      finalImage.src = "../../images/harry-potter-sorcerers-stone.gif";
+      congratulationsText.textContent = `Congratulations for scoring ${runningScore} points; you are A QUIZZARD!`;
+    } else if (runningScore > 29) {
+      finalImage.src = "../../images/draco.gif";
+      congratulationsText.textContent = `You scored ${runningScore} points; Draco claims you're a mudblood!`;
+    } else {
+      finalImage.src = "../../images/movie-fantasy.gif";
+      congratulationsText.textContent = `You scored ${runningScore} points; must be a muggle!`;
+    }
   }
 };
 
@@ -163,3 +183,17 @@ nextQuestion.addEventListener("click", moveToNextQuestion);
 for (let button of buttonList) {
   button.addEventListener("click", checkAnswer);
 }
+
+//RESTARTS QUIZ
+const restartQuiz = () => {
+  location.reload();
+};
+
+//QUITS AND TAKES YOU TO HOMEPAGE
+const quitQuiz = () => {
+  //link to homepage
+};
+
+//EVENT LISTENERS FOR TRY AGAIN AND QUIT
+tryAgainButton.addEventListener("click", restartQuiz);
+quitButton.addEventListener("click", quitQuiz);

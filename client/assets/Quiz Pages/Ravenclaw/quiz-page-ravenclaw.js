@@ -11,8 +11,19 @@ const correctQuestion = document.querySelector("#correct-question");
 const correctAnswer = document.querySelector("#correct-answer");
 const extraInfo = document.querySelector("#extra-info");
 const nextQuestion = document.querySelector(".back button");
+const progressBarEl = document.querySelector("#progress-bar");
+const progressBarImage = document.querySelector("#broomstick-circle");
+const holdingContainer = document.querySelector(".holding-container");
+const secondHoldingContainer = document.querySelector(
+  ".second-holding-container"
+);
+const congratulationsText = document.querySelector(".top h2");
+const tryAgainButton = document.querySelector("#try-again-button");
+const quitButton = document.querySelector("#quit-button");
+const finalImage = document.querySelector(".final-image");
 
 let i = 0;
+let j = 0;
 let runningScore = 0;
 
 let questionsArray = [];
@@ -20,7 +31,7 @@ let questionsArray = [];
 //GRAB THE CORRECT QUESTIONS
 const logJSONDataSlytherin = async () => {
   try {
-    const response = await fetch("http://localhost:3000/Slytherin");
+    const response = await fetch("http://localhost:3000/ravenclaw");
     if (response.ok) {
       const data = await response.json();
       questionsArray.push(data);
@@ -42,23 +53,28 @@ logJSONDataSlytherin();
 
 //CHECKS THAT THE ANSWER GIVEN IS CORRECT
 const checkAnswer = (e) => {
+  nextQuestion.disabled = false;
   if (e.target.id === "answer-one" && questionsArray[0][i].correct == 0) {
     completesCheckAnswer(e, 0);
+    progressBar();
   } else if (
     e.target.id === "answer-two" &&
     questionsArray[0][i].correct == 1
   ) {
     completesCheckAnswer(e, 1);
+    progressBar();
   } else if (
     e.target.id === "answer-three" &&
     questionsArray[0][i].correct == 2
   ) {
     completesCheckAnswer(e, 2);
+    progressBar();
   } else if (
     e.target.id === "answer-four" &&
     questionsArray[0][i].correct == 3
   ) {
     completesCheckAnswer(e, 3);
+    progressBar();
   } else {
     tryAgain.textContent = "That's incorrect- Try again";
     e.target.style.backgroundColor = "red";
@@ -68,6 +84,7 @@ const checkAnswer = (e) => {
 
 //STYLES THE ANSWERS IF CORRECT
 const completesCheckAnswer = (e, number) => {
+  e.target.disabled = true;
   e.target.style.backgroundColor = "green";
   e.target.style.color = "white";
   backCardSetter(number);
@@ -80,6 +97,9 @@ const flipCard = () => {
 
 //FUNCTION THAT FLIPS THE CARD AND THEN SETS THE TEXT
 const backCardSetter = (number) => {
+  if (i === 9) {
+    nextQuestion.textContent = "Results";
+  }
   let pointScore = 0;
   card.addEventListener("click", flipCard);
   setTimeout(() => card.removeEventListener("click", flipCard), 100);
@@ -92,6 +112,7 @@ const backCardSetter = (number) => {
     }
   });
   scoreSetter(pointScore);
+  setTimeout(() => (score.textContent = `Score: ${runningScore}`), 100);
 };
 
 //USED TO DETERMINE THE POINTS SCORED PER QUESTION
@@ -107,12 +128,26 @@ const scoreSetter = (score) => {
   }
 };
 
+//PROGRESS BAR FUNCTION
+const progressBar = () => {
+  if (j === 100) {
+    null;
+  } else {
+    j += 10;
+    progressBarEl.style.width = j + "%";
+
+    progressBarImage.style.left = j - 1 + "%";
+  }
+};
+
 //RESETS ALL THE ELEMENTS AND REPLACES THE QUESTION WITH THE NEXT ONE
 const moveToNextQuestion = () => {
-  score.textContent = `Score: ${runningScore}`;
   if (i < 9) {
     i += 1;
     for (let button of buttonList) {
+      if (button.disabled === true) {
+        button.disabled = false;
+      }
       button.style.backgroundColor = "#ccc";
       button.style.color = "black";
     }
@@ -121,10 +156,23 @@ const moveToNextQuestion = () => {
     answerTwo.textContent = questionsArray[0][i].answers.second;
     answerThree.textContent = questionsArray[0][i].answers.third;
     answerFour.textContent = questionsArray[0][i].answers.fourth;
+    tryAgain.textContent = "Click an answer!";
     card.classList.toggle("flipCard");
+    nextQuestion.disabled = true;
   } else {
-    //HERE IS WHERE THE FINAL PAGE WILL GO
-    console.log("Hi");
+    holdingContainer.style.display = "none";
+    secondHoldingContainer.style.display = "flex";
+    score.textContent = "Clever, creative and wise";
+    if (runningScore > 39) {
+      finalImage.src = "../../images/harry-potter-sorcerers-stone.gif";
+      congratulationsText.textContent = `Congratulations for scoring ${runningScore} points; you are A QUIZZARD!`;
+    } else if (runningScore > 29) {
+      finalImage.src = "../../images/draco.gif";
+      congratulationsText.textContent = `You scored ${runningScore} points; Draco claims you're a mudblood!`;
+    } else {
+      finalImage.src = "../../images/movie-fantasy.gif";
+      congratulationsText.textContent = `You scored ${runningScore} points; must be a muggle!`;
+    }
   }
 };
 
@@ -135,3 +183,17 @@ nextQuestion.addEventListener("click", moveToNextQuestion);
 for (let button of buttonList) {
   button.addEventListener("click", checkAnswer);
 }
+
+//RESTARTS QUIZ
+const restartQuiz = () => {
+  location.reload();
+};
+
+//QUITS AND TAKES YOU TO HOMEPAGE
+const quitQuiz = () => {
+  //link to homepage
+};
+
+//EVENT LISTENERS FOR TRY AGAIN AND QUIT
+tryAgainButton.addEventListener("click", restartQuiz);
+quitButton.addEventListener("click", quitQuiz);

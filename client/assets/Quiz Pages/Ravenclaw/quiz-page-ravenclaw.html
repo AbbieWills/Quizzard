@@ -3,20 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/client/assets/Quiz Pages/Ravenclaw/quiz-page-ravenclaw.css" />
-    <script defer src="/client/assets/Quiz Pages/Ravenclaw/quiz-page-ravenclaw.js"></script>
+    <link rel="stylesheet" href="./quiz-page-ravenclaw.css" />
+    <script defer src="./quiz-page-ravenclaw.js"></script>
     <title>Document</title>
   </head>
   <body>
     <nav class="nav">
       <div class="nav-home">
-        <img src="/client/assets/images/crest-white.svg" alt="Hogwarts Crest Homepage" />
+        <img src="../../images/crest-white.svg" alt="Hogwarts Crest Homepage" />
       </div>
-      <a href="/client/Home/home-page.html">
-        <h1 class="nav-header">Are you a Quizzard?</h1>
-        </a>
+      <h1 class="nav-header">Are you a Quizzard? - Music</h1>
       <div class="nav-empty-crest">
-        <img src="/client/assets/images/crest-white.svg" alt="Hogwarts Crest Homepage" />
+        <img src="../../images/crest-white.svg" alt="Hogwarts Crest Homepage" />
       </div>
     </nav>
     <div class="holding-container">
@@ -38,6 +36,36 @@
             <button>Next Question</button>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="second-holding-container">
+      <div class="results-container">
+        <section class="top">
+          <h2>Congratulations for scoring 40 points, you are A QUIZZARD</h2>
+        </section>
+
+        <section class="middle">
+          <img
+            class="final-image"
+            src="https://64.media.tumblr.com/tumblr_m5s54rXs1y1rxevt4o1_400.gif"
+            alt="mudblood"
+          />
+          <div class="button-containers">
+            <button id="try-again-button">Try again</button>
+            <button id="quit-button">Quit</button>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div id="progress-bar-container">
+      <div id="progress-bar"></div>
+
+      <div id="broomstick-circle">
+        <img
+          src="../../images/witches-broomstick-drawing-3127.svg"
+          alt="broomstick"
+        />
       </div>
     </div>
     <footer class="footer">
