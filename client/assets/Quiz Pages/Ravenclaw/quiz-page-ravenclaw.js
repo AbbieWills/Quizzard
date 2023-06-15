@@ -31,7 +31,7 @@ let questionsArray = [];
 //GRAB THE CORRECT QUESTIONS
 const logJSONDataSlytherin = async () => {
   try {
-    const response = await fetch("http://localhost:3000/ravenclaw");
+    const response = await fetch("http://localhost:3000/api/ravenclaw");
     if (response.ok) {
       const data = await response.json();
       questionsArray.push(data);
@@ -191,7 +191,7 @@ const restartQuiz = () => {
 
 //QUITS AND TAKES YOU TO HOMEPAGE
 const quitQuiz = () => {
-  //link to homepage
+  location.href = "http://localhost:3000/";
 };
 
 //EVENT LISTENERS FOR TRY AGAIN AND QUIT
