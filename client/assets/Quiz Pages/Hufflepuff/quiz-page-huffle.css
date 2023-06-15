@@ -3,7 +3,8 @@
   src: url("../../fonts/HARRYP__.TTF") format("truetype");
 }
 
-.holding-container, .second-holding-container {
+.holding-container,
+.second-holding-container {
   background-image: url("https://i.pinimg.com/564x/cf/df/28/cfdf2850a6bd24fac40415ff529d29c3.jpg");
 }
 
@@ -54,6 +55,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .nav-home {
   flex: 0.05;
   margin-left: 20px;
@@ -80,6 +82,7 @@ body {
 }
 
 @media (max-width: 750px) {
+
   .nav h1,
   .footer h1 {
     font-size: 50px;
@@ -87,12 +90,15 @@ body {
 }
 
 @media (max-width: 680px) {
+
   .nav h1,
   .footer h1 {
     font-size: 40px;
   }
 }
+
 @media (max-width: 490px) {
+
   .nav h1,
   .footer h1 {
     font-size: 30px;
@@ -328,7 +334,7 @@ body {
   font-size: 30px;
 }
 
-.top > h2 {
+.top>h2 {
   font-family: "HarryPotter";
   font-size: 40px;
   padding: 5px 10px 5px 10px;
