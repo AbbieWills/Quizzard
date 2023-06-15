@@ -225,6 +225,7 @@ body {
 
 #broomstick-circle {
   background-color: white;
+  border: 2px black solid;
   height: 70px;
   width: 70px;
   border-radius: 70px;
