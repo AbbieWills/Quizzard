@@ -2,27 +2,27 @@
   font-family: "HarryPotter";
   src: url("../../fonts/HARRYP__.TTF") format("truetype");
 }
-/* Title color for new anchor tag when house photo is clicked */
-a {
-  text-decoration: none;
-  color: #fff;
+
+.holding-container, .second-holding-container {
+background-image: url("https://i.pinimg.com/564x/47/0b/3c/470b3c6c79d22a831370d362bd3b5616.jpg");
 }
 
+
 h1 {
-  font-family: "HarryPotter", sans-serif;
+  font-family: "HarryPotter", "Inter";
   font-size: 60px;
 }
 
 h2 {
-  font-family: sans-serif;
+  font-family: "Inter";
 }
 
 p {
-  font-family: sans-serif;
+  font-family: "Inter";
 }
 
 button {
-  font-family: sans-serif;
+  font-family: "Inter";
   font-size: 20px;
 }
 
@@ -61,8 +61,8 @@ body {
 }
 
 .nav-home img {
-  height: 85px;
-  width: 85px;
+  height: 80px;
+  width: 80px;
 }
 
 .nav-header {
@@ -75,8 +75,8 @@ body {
 }
 
 .nav-empty-crest img {
-  height: 85px;
-  width: 85px;
+  height: 80px;
+  width: 80px;
   margin-right: 20px;
 }
 
@@ -154,6 +154,7 @@ body {
   flex: 0.2;
   margin: 5px 0 0 0;
   background-color: #ccc;
+  border-radius: 15px;
   color: black;
   width: 70%;
   border: none;
@@ -207,9 +208,15 @@ body {
   flex: 0.1;
   width: 40%;
   padding: 16px;
+  background-color: #ddd;
   margin: 10px 0 20px 0;
+  border-radius: 15px;
   font-size: 30px;
-  font-family: "HarryPotter", sans-serif;
+  font-family: "HarryPotter", "Inter";
+}
+
+.back button:hover {
+  background-color: #ccc;
 }
 
 .flipCard {
@@ -330,4 +337,15 @@ body {
   font-family: "HarryPotter";
   font-size: 40px;
   padding: 5px 10px 5px 10px;
+}
+
+#try-again-button,
+#quit-button {
+  background-color: #ddd;
+  border-radius: 15px;
+}
+
+#try-again-button:hover,
+#quit-button:hover {
+  background-color: #ccc;
 }
