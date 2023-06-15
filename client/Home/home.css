@@ -69,6 +69,7 @@ h1 {
 @media (max-width: 490px) {
   h1 {
     font-size: 30px;
+    text-align: center;
   }
 
   .nav-empty-crest img {

@@ -1,85 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="Quiz Pages/Hufflepuff/quiz-page-huffle.css"
+    />
+    <script defer src="Quiz Pages/Hufflepuff/quiz-page-huffle.js"></script>
+    <title>Drama</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="Quiz Pages/Hufflepuff/quiz-page-huffle.css" />
-  <script defer src="Quiz Pages/Hufflepuff/quiz-page-huffle.js"></script>
-  <title>Drama</title>
-</head>
-
-<body>
-  <nav class="nav">
-    <div class="nav-home">
-      <a href="/">
+  <body>
+    <nav class="nav">
+      <div class="nav-home">
+        <a href="/">
+          <img src="images/crest.svg" alt="Hogwarts Crest Homepage" />
+        </a>
+      </div>
+      <h1 class="nav-header">Are you a Quizzard? - Drama</h1>
+      <div class="nav-empty-crest">
         <img src="images/crest.svg" alt="Hogwarts Crest Homepage" />
-      </a>
-    </div>
-    <h1 class="nav-header">Are you a Quizzard? - Drama</h1>
-    <div class="nav-empty-crest">
-      <img src="images/crest.svg" alt="Hogwarts Crest Homepage" />
-    </div>
-  </nav>
-  <div class="holding-container">
-    <div class="main-container">
-      <div class="card">
-        <div class="front">
-          <h2 id="question"></h2>
-          <button id="answer-one">
-            <h2></h2>
-          </button>
-          <button id="answer-two">
-            <h2></h2>
-          </button>
-          <button id="answer-three">
-            <h2></h2>
-          </button>
-          <button id="answer-four">
-            <h2></h2>
-          </button>
-          <p class="incorrect-text">Click an answer!</p>
-        </div>
-        <div class="back">
-          <h1 id="correct-text">Correct!</h1>
-          <h2 id="correct-question"></h2>
-          <h2 id="correct-answer"></h2>
-          <p id="extra-info"></p>
-          <button>Next Question</button>
+      </div>
+    </nav>
+    <div class="holding-container">
+      <div class="main-container">
+        <div class="card">
+          <div class="front">
+            <h2 id="question"></h2>
+            <button id="answer-one">
+              <h2></h2>
+            </button>
+            <button id="answer-two">
+              <h2></h2>
+            </button>
+            <button id="answer-three">
+              <h2></h2>
+            </button>
+            <button id="answer-four">
+              <h2></h2>
+            </button>
+            <p class="incorrect-text">Click an answer!</p>
+          </div>
+          <div class="back">
+            <h1 id="correct-text">Correct!</h1>
+            <h2 id="correct-question"></h2>
+            <h2 id="correct-answer"></h2>
+            <p id="extra-info"></p>
+            <button>Next Question</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="second-holding-container">
-    <div class="results-container">
-      <section class="top">
-        <h2>Congratulations for scoring 40 points, you are A QUIZZARD</h2>
-      </section>
+    <div class="second-holding-container">
+      <div class="results-container">
+        <section class="top">
+          <h2 id="congrats">
+            Congratulations for scoring 40 points, you are A QUIZZARD
+          </h2>
+        </section>
 
-      <section class="middle">
-        <img class="final-image" src="https://64.media.tumblr.com/tumblr_m5s54rXs1y1rxevt4o1_400.gif" alt="mudblood" />
-        <div class="button-containers">
-          <button id="try-again-button">Try again</button>
-          <button id="quit-button">Quit</button>
-        </div>
-      </section>
+        <section class="middle">
+          <img
+            class="final-image"
+            src="https://64.media.tumblr.com/tumblr_m5s54rXs1y1rxevt4o1_400.gif"
+            alt="mudblood"
+          />
+          <div class="button-containers">
+            <button id="try-again-button">Try again</button>
+            <button id="quit-button">Quit</button>
+          </div>
+        </section>
+      </div>
     </div>
-  </div>
 
-  <div id="progress-bar-container">
-    <div id="progress-bar"></div>
+    <div id="progress-bar-container">
+      <div id="progress-bar"></div>
 
-    <div id="broomstick-circle">
-      <img src="../../images/witches-broomstick-drawing-3127.svg" alt="broomstick" />
+      <div id="broomstick-circle">
+        <img
+          src="../../images/witches-broomstick-drawing-3127.svg"
+          alt="broomstick"
+        />
+      </div>
     </div>
-  </div>
-  <footer class="footer">
-    <h1 id="points">Score: 0</h1>
-  </footer>
-</body>
-
+    <footer class="footer">
+      <h1 id="points">Score: 0</h1>
+    </footer>
+  </body>
 </html>
