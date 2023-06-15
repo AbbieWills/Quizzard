@@ -6,6 +6,8 @@
 
 body {
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Heading */
@@ -150,6 +152,13 @@ p {
   }
   .row {
     padding-left: 40px;
+  }
+}
+
+@media (min-width: 1550px) {
+  section {
+    align-self: center;
+    width: 1550px;
   }
 }
 
