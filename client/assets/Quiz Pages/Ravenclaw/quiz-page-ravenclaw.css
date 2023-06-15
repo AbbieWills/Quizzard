@@ -2,6 +2,7 @@
   font-family: "HarryPotter";
   src: url("../../fonts/HARRYP__.TTF") format("truetype");
 }
+
 /* Title color for new anchor tag when house photo is clicked */
 a {
   text-decoration: none;
@@ -55,6 +56,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .nav-home {
   flex: 0.05;
   margin-left: 20px;
@@ -80,7 +82,67 @@ body {
   margin-right: 20px;
 }
 
+@media (max-width: 930px) {
+  .top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .middle {
+    flex-direction: column;
+  }
+
+  .middle .final-image {
+    max-height: 300px;
+    max-width: 400px;
+  }
+
+  .middle .button-containers button {
+    width: 120px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 835px) {
+  .top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .middle {
+    flex-direction: column;
+  }
+
+  .middle .final-image {
+    max-height: 300px;
+    max-width: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #try-again-button {
+    position: fixed;
+    bottom: 23%;
+    left: 25%;
+    width: 20%;
+    font-size: 2vw;
+    margin-right: 10px;
+  }
+
+  #quit-button {
+    position: fixed;
+    bottom: 23%;
+    left: 55%;
+    width: 20%;
+    font-size: 2vw;
+    margin-left: 10px;
+  }
+}
+
 @media (max-width: 750px) {
+
   .nav h1,
   .footer h1 {
     font-size: 50px;
@@ -88,15 +150,68 @@ body {
 }
 
 @media (max-width: 680px) {
+
   .nav h1,
   .footer h1 {
     font-size: 40px;
   }
 }
+
+@media (max-width: 670px) {
+  .top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .middle {
+    flex-direction: column;
+  }
+
+  .middle .final-image {
+    max-height: 250px;
+    max-width: 600px;
+  }
+
+  .middle .button-containers button {
+    width: 100px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .middle .final-image {
+    max-height: 250px;
+    max-width: 420px;
+    position: fixed;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+}
+
 @media (max-width: 490px) {
+
   .nav h1,
   .footer h1 {
     font-size: 30px;
+  }
+
+  .middle .final-image {
+    max-height: 150px;
+    max-width: 320px;
+    position: fixed;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card,
+  .main-container {
+    transform: scale(0.87);
+
   }
 
   .nav-empty-crest img {
@@ -296,7 +411,7 @@ body {
   border-bottom: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
-  box-shadow: 10px 10px 5px #3c4e91;
+  box-shadow: 5px 5px 2px #3c4e91;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   text-align: center;
@@ -325,7 +440,7 @@ body {
   font-size: 30px;
 }
 
-.top > h2 {
+.top>h2 {
   font-family: "HarryPotter";
   font-size: 40px;
   padding: 5px 10px 5px 10px;
