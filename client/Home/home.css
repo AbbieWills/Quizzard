@@ -4,6 +4,10 @@
   src: url(fonts/HARRYP__.TTF) format("truetype");
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* Heading */
 h1 {
   font-family: "HarryPotter";
