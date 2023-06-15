@@ -117,33 +117,39 @@ p {
   }
 }
 
-/* Padding for bottom of house photos in response to screen sizes */
-@media (max-width: 992px) {
-.img-fluid {
-  padding: 20px;
-}
-.bottom-photos {
-  padding-bottom: 80px;
-}
-.huffle {
-  max-width: 480px;
-  margin-bottom: -80px;
-}
+/* Padding for house photos in response to screen sizes */
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .final-photo {
+    padding-bottom: 120px;
+
+  }
 }
 
-@media (min-width: 766px) and (max-width: 989px){
-.bottom-photos {
-  padding-bottom: 35px;
-}
-}
-
-/* House images */
-@media (min-width: 993px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .img-fluid {
-  padding: 10px 10px 100px 50px;
-  max-width: 90%;
-}
-}
+    padding: 10px 40px 10px 40px;
+  }
+  .bottom-photos{
+    padding-bottom: 110px;
+  }
+  }
+
+  @media (min-width: 992px) {
+  .img-fluid {
+    padding: 10px 30px 115px 30px;
+    max-width: 93%;
+  }
+  .row {
+    padding-left: 40px;
+  }
+  }
 
 /* Footer */
 .footer {

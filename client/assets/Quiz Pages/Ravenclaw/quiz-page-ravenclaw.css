@@ -2,11 +2,11 @@
   font-family: "HarryPotter";
   src: url("../../fonts/HARRYP__.TTF") format("truetype");
 }
-/* Title color for new anchor tag when house photo is clicked */
-a {
-  text-decoration: none;
-  color: #fff;
+
+.holding-container, .second-holding-container {
+background-image: url("https://i.pinimg.com/564x/47/0b/3c/470b3c6c79d22a831370d362bd3b5616.jpg");
 }
+
 
 h1 {
   font-family: "HarryPotter", sans-serif;
