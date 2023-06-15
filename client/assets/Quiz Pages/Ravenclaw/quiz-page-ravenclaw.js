@@ -197,3 +197,11 @@ const quitQuiz = () => {
 //EVENT LISTENERS FOR TRY AGAIN AND QUIT
 tryAgainButton.addEventListener("click", restartQuiz);
 quitButton.addEventListener("click", quitQuiz);
+
+//ALERT FOR USER TO SAY THAT THE QUIZ WILL BE LOST
+window.addEventListener("beforeunload", function (e) {
+  var confirmationMessage = "o/";
+
+  (e || window.event).returnValue = confirmationMessage;
+  return confirmationMessage;
+});
