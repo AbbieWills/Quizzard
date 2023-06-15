@@ -119,6 +119,7 @@ p {
   }
 }
 
+<<<<<<< HEAD
 /* Padding for bottom of house photos in response to screen sizes */
 @media (max-width: 992px) {
   .img-fluid {
@@ -146,6 +147,41 @@ p {
     max-width: 90%;
   }
 }
+=======
+/* Padding for house photos in response to screen sizes */
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .final-photo {
+    padding-bottom: 120px;
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .img-fluid {
+    padding: 10px 40px 10px 40px;
+  }
+  .bottom-photos{
+    padding-bottom: 110px;
+  }
+  }
+
+  @media (min-width: 992px) {
+  .img-fluid {
+    padding: 10px 30px 115px 30px;
+    max-width: 93%;
+  }
+  .row {
+    padding-left: 40px;
+  }
+  }
+>>>>>>> d3c3152e7aff05ee69428dbda32a19a923d03be1
 
 /* Footer */
 .footer {

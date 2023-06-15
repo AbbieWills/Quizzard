@@ -2,12 +2,10 @@
   font-family: "HarryPotter";
   src: url("../../fonts/HARRYP__.TTF") format("truetype");
 }
-/* Title color for new anchor tag when house photo is clicked */
-a {
-  text-decoration: none;
-  color: #fff;
-}
 
+.holding-container, .second-holding-container {
+  background-image: url("https://i.pinimg.com/564x/4a/e3/8b/4ae38ba67123746e16947e283ab2abe1.jpg");
+}
 h1 {
   font-family: "HarryPotter", "Inter";
   font-size: 60px;
