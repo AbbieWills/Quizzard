@@ -3,9 +3,11 @@
   src: url("../../fonts/HARRYP__.TTF") format("truetype");
 }
 
-.holding-container, .second-holding-container {
+.holding-container,
+.second-holding-container {
   background-image: url("https://i.pinimg.com/564x/4a/e3/8b/4ae38ba67123746e16947e283ab2abe1.jpg");
 }
+
 h1 {
   font-family: "HarryPotter", "Inter";
   font-size: 60px;
@@ -22,6 +24,10 @@ p {
 button {
   font-family: "Inter";
   font-size: 20px;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 body {
@@ -53,6 +59,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .nav-home {
   flex: 0.05;
   margin-left: 20px;
@@ -78,10 +85,20 @@ body {
   margin-right: 20px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 760px) {
   .nav h1,
   .footer h1 {
     font-size: 50px;
+  }
+}
+
+@media (min-width: 750px) {
+  .main-container {
+    max-width: 600px;
+  }
+
+  .results-container {
+    max-width: 850px;
   }
 }
 
@@ -90,15 +107,83 @@ body {
   .footer h1 {
     font-size: 40px;
   }
+  #question {
+    font-size: 16px;
+  }
+
+  #correct-text {
+    font-size: 40px;
+  }
+
+  #correct-question,
+  #correct-answer {
+    font-size: 16px;
+  }
+
+  #extra-info {
+    font-size: 16px;
+  }
+
+  #next-question {
+    flex: 0.015;
+    width: 50%;
+    font-size: 30px;
+  }
+
+  #answer-one,
+  #answer-two,
+  #answer-three,
+  #answer-four {
+    flex: 0.05;
+    font-size: 12px;
+  }
 }
+
 @media (max-width: 490px) {
   .nav h1,
   .footer h1 {
     font-size: 30px;
   }
 
+  #congrats {
+    font-size: 30px;
+  }
+
+  #correct-text {
+    font-size: 35px;
+  }
+
+  #correct-question,
+  #correct-answer {
+    font-size: 14px;
+    padding: 0 5px 0 5px;
+  }
+
+  #next-question {
+    flex: 0.015;
+    width: 50%;
+    font-size: 20px;
+  }
+
+  #extra-info {
+    font-size: 12px;
+  }
+
+  #try-again-button,
+  #quit-button {
+    width: 100px;
+    margin: 10px;
+    font-size: 20px;
+  }
+
   .nav-empty-crest img {
     display: none;
+  }
+}
+
+@media (max-width: 350px) {
+  .main-container {
+    min-width: 245px;
   }
 }
 
@@ -112,7 +197,7 @@ body {
 }
 
 .main-container {
-  width: 500px;
+  width: 70%;
   height: calc(100vh - 320px);
   background: none;
 }
@@ -260,10 +345,6 @@ body {
   background-image: url("../../images/Starry.jpg");
 }
 
-.holding-container {
-  display: flex;
-}
-
 .second-holding-container {
   display: none;
   align-items: center;
@@ -294,30 +375,30 @@ body {
 .middle {
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   width: 100%;
-  flex: 0.7;
-  background-color: #f2f2f2;
+  background-color: #ddd;
   border-bottom: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
-  box-shadow: 10px 10px 5px #a6332e;
+  box-shadow: 10px 10px 5px #333;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   text-align: center;
 }
 
 .final-image {
-  flex: 0.9;
-  max-height: 330px;
-  max-width: 465px;
+  flex: 0.5;
+  max-width: 80%;
+  max-height: 80%;
   padding: 20px;
+  object-fit: contain;
 }
 
 .button-containers {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   flex: 0.1;
@@ -331,7 +412,7 @@ body {
   font-size: 30px;
 }
 
-.top > h2 {
+.top h2 {
   font-family: "HarryPotter";
   font-size: 40px;
   padding: 5px 10px 5px 10px;

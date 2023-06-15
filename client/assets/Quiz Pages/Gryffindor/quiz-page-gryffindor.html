@@ -3,19 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="Quiz Pages/Gryffindor/quiz-page-gryffindor.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="Quiz Pages/Gryffindor/quiz-page-gryffindor.css"
-    />
     <script defer src="Quiz Pages/Gryffindor/quiz-page-gryffindor.js"></script>
     <title>English</title>
   </head>
+
   <body>
     <nav class="nav">
       <div class="nav-home">
@@ -33,10 +34,18 @@
         <div class="card">
           <div class="front">
             <h2 id="question"></h2>
-            <button id="answer-one"><h2></h2></button>
-            <button id="answer-two"><h2></h2></button>
-            <button id="answer-three"><h2></h2></button>
-            <button id="answer-four"><h2></h2></button>
+            <button id="answer-one">
+              <h2></h2>
+            </button>
+            <button id="answer-two">
+              <h2></h2>
+            </button>
+            <button id="answer-three">
+              <h2></h2>
+            </button>
+            <button id="answer-four">
+              <h2></h2>
+            </button>
             <p class="incorrect-text">Click an answer!</p>
           </div>
           <div class="back">
@@ -44,7 +53,7 @@
             <h2 id="correct-question"></h2>
             <h2 id="correct-answer"></h2>
             <p id="extra-info"></p>
-            <button>Next Question</button>
+            <button id="next-question">Next Question</button>
           </div>
         </div>
       </div>
@@ -52,13 +61,15 @@
     <div class="second-holding-container">
       <div class="results-container">
         <section class="top">
-          <h2>Congratulations for scoring 40 points, you are A QUIZZARD</h2>
+          <h2 id="congrats">
+            Congratulations for scoring 40 points, you are A QUIZZARD
+          </h2>
         </section>
 
         <section class="middle">
           <img
             class="final-image"
-            src="https://64.media.tumblr.com/tumblr_m5s54rXs1y1rxevt4o1_400.gif"
+            src="../../images/harry-potter-sorcerers-stone.gif"
             alt="mudblood"
           />
           <div class="button-containers">
