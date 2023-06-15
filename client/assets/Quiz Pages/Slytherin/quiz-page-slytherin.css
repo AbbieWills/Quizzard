@@ -154,6 +154,7 @@ body {
   flex: 0.2;
   margin: 5px 0 0 0;
   background-color: #ccc;
+  border-radius: 15px;
   color: black;
   width: 70%;
   border: none;
@@ -207,9 +208,15 @@ body {
   flex: 0.1;
   width: 40%;
   padding: 16px;
+  background-color: #ddd;
   margin: 10px 0 20px 0;
+  border-radius: 15px;
   font-size: 30px;
   font-family: "HarryPotter", sans-serif;
+}
+
+.back button:hover {
+  background-color: #ccc;
 }
 
 .flipCard {
@@ -330,4 +337,15 @@ body {
   font-family: "HarryPotter";
   font-size: 40px;
   padding: 5px 10px 5px 10px;
+}
+
+#try-again-button,
+#quit-button {
+  background-color: #ddd;
+  border-radius: 15px;
+}
+
+#try-again-button:hover,
+#quit-button:hover {
+  background-color: #ccc;
 }
