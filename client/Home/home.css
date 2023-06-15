@@ -4,6 +4,10 @@
   src: url(fonts/HARRYP__.TTF) format("truetype");
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* Heading */
 h1 {
   font-family: "HarryPotter";
@@ -27,9 +31,9 @@ h1 {
 }
 
 .nav-home img {
-  height: 110px;
-  width: 110px;
-  padding-bottom: 10px;
+  height: 100px;
+  width: 100px;
+  padding-bottom: 15px;
 }
 
 .nav-header {
@@ -42,10 +46,10 @@ h1 {
 }
 
 .nav-empty-crest img {
-  height: 110px;
-  width: 110px;
+  height: 100px;
+  width: 100px;
   margin-right: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 /* Heading font size changes in response to screen size  */
@@ -113,10 +117,32 @@ p {
   }
 }
 
-/* House images */
+/* Padding for bottom of house photos in response to screen sizes */
+@media (max-width: 992px) {
 .img-fluid {
+  padding: 20px;
+}
+.bottom-photos {
+  padding-bottom: 80px;
+}
+.huffle {
+  max-width: 480px;
+  margin-bottom: -80px;
+}
+}
+
+@media (min-width: 766px) and (max-width: 989px){
+.bottom-photos {
+  padding-bottom: 35px;
+}
+}
+
+/* House images */
+@media (min-width: 993px) {
+  .img-fluid {
   padding: 10px 10px 100px 50px;
   max-width: 90%;
+}
 }
 
 /* Footer */
