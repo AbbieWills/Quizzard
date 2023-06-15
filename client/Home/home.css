@@ -31,9 +31,9 @@ h1 {
 }
 
 .nav-home img {
-  height: 110px;
-  width: 110px;
-  padding-bottom: 10px;
+  height: 100px;
+  width: 100px;
+  padding-bottom: 15px;
 }
 
 .nav-header {
@@ -46,10 +46,10 @@ h1 {
 }
 
 .nav-empty-crest img {
-  height: 110px;
-  width: 110px;
+  height: 100px;
+  width: 100px;
   margin-right: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 /* Heading font size changes in response to screen size  */
