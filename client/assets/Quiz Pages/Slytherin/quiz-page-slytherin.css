@@ -1,8 +1,7 @@
 @font-face {
   font-family: "HarryPotter";
-  src: url("/client/assets/HARRYP__.TTF") format("truetype");
+  src: url("../../fonts/HARRYP__.TTF") format("truetype");
 }
-
 /* Title color for new anchor tag when house photo is clicked */
 a {
   text-decoration: none;
@@ -30,7 +29,7 @@ button {
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .nav {
@@ -225,7 +224,8 @@ body {
 }
 
 #broomstick-circle {
-  background-color: black;
+  background-color: white;
+  border: 2px black solid;
   height: 70px;
   width: 70px;
   border-radius: 70px;
@@ -240,8 +240,8 @@ body {
 }
 
 #progress-bar-container img {
-  width: 40px;
-  height: 50px;
+  width: 55px;
+  height: 65px;
   transition: left 3s ease;
   left: 0%;
   bottom: -30px;
@@ -252,5 +252,82 @@ body {
   width: 0%;
   height: 20px;
   transition: width 3s ease;
-  background-image: url("./images/Starry.jpg");
+  background-image: url("../../images/Starry.jpg");
+}
+
+.holding-container {
+  display: flex;
+}
+
+.second-holding-container {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.results-container {
+  height: calc(100vh - 200px);
+  display: flex;
+  width: 70%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top {
+  width: 100%;
+  flex: 0.1;
+  background-color: #366447;
+  color: white;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  text-align: center;
+  font-family: "HarryPotter";
+}
+
+.middle {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  flex: 0.7;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  box-shadow: 10px 10px 5px #366447;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+}
+
+.final-image {
+  flex: 0.9;
+  max-height: 330px;
+  max-width: 465px;
+  padding: 20px;
+}
+
+.button-containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0.1;
+}
+
+.button-containers button {
+  margin: 20px;
+  width: 150px;
+  padding: 16px;
+  font-family: "HarryPotter";
+  font-size: 30px;
+}
+
+.top > h2 {
+  font-family: "HarryPotter";
+  font-size: 40px;
+  padding: 5px 10px 5px 10px;
 }
